@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assuts/01.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/assets/01.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/audio/Arash - Iran Iran 2014 (Official Video).m4a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/video/Sia - Never Give Up (from the Lion Soundtrack) [Lyric Video].mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +22,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -40,7 +43,8 @@
       <option name="presentableId" value="Default" />
       <updated>1677857850308</updated>
       <workItem from="1677857852182" duration="16000" />
-      <workItem from="1678339976924" duration="1112000" />
+      <workItem from="1678339976924" duration="2432000" />
+      <workItem from="1678342515935" duration="7993000" />
     </task>
     <servers />
   </component>
