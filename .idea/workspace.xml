@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/Menue.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/Dushan.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/Loading.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -64,7 +65,9 @@
       <workItem from="1678400988138" duration="85000" />
       <workItem from="1678625608797" duration="3134000" />
       <workItem from="1678628939229" duration="9658000" />
-      <workItem from="1678773908689" duration="6703000" />
+      <workItem from="1678773908689" duration="7021000" />
+      <workItem from="1678781207717" duration="866000" />
+      <workItem from="1678879759966" duration="12214000" />
     </task>
     <task id="LOCAL-00001" summary="video audio">
       <created>1678354972181</created>
@@ -87,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678637425493</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Menu css Add">
+      <created>1678780856054</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678780856054</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +107,7 @@
     <MESSAGE value="video audio" />
     <MESSAGE value="data add" />
     <MESSAGE value="Social Media" />
-    <option name="LAST_COMMIT_MESSAGE" value="Social Media" />
+    <MESSAGE value="Menu css Add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Menu css Add" />
   </component>
 </project>
