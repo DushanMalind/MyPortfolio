@@ -1,0 +1,19 @@
+table  .a {
+    background-color: lightblue;
+}
+
+table  .b {
+    background-color: yellow;
+}
+
+table  .c {
+    background-color: rebeccapurple;
+}
+
+table  .d {
+    background-color: red;
+}
+
+table  th:first-child {
+    background-color: green;
+}
