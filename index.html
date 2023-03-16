@@ -20,7 +20,6 @@
     <link rel="canonical" href="http://ijse.lk">
 
 
-
 </head>
 
 
@@ -564,18 +563,18 @@ Types....
     </address>
 </footer>
 
-
+<!--
 <table border="1">
     <link rel="stylesheet" type="text/css" href="pages/table.css">
-<thead>
-<colgroup>
-    <col class="a">
-    <col span="2" class="b">
-    <col class="c">
-    <col class="d">
-</colgroup>
+    <thead>
+    <colgroup>
+        <col class="a">
+        <col span="2" class="b">
+        <col class="c">
+        <col class="d">
+    </colgroup>
 
-<
+    <
     <tr>
         <th class="customerId">CustomerID</th>
         <th scope="col">Customer Name</th>
@@ -584,7 +583,7 @@ Types....
         <th>Edit</th>
     </tr>
 
-</thead>
+    </thead>
 
     <tbody>
     <tr>
@@ -612,12 +611,13 @@ Types....
 <br>
 <br>
 <br>
-<!--from-->
+&lt;!&ndash;from&ndash;&gt;
 
-<from action="" method="" class="from example">
+<form action="kale" method="post" class="from example">
+    <fieldset>
     <div class="from example">
         <lable for="name">First Name :</lable>
-        <input type="text" name="name" id="name1" required>
+        <input type="text" name="name" id="name1" required placeholder="kamal">
     </div>
     <br>
 
@@ -636,14 +636,14 @@ Types....
 
     <div class="from example">
         <lable for="name">TP :</lable>
-        <input type="text" name="name" id="tp" required>
+        <input type="tel" name="name" id="tp" required>
     </div>
 
     <br>
 
     <div class="from example">
         <lable for="name">Email :</lable>
-        <input type="text" name="name" id="email" required>
+        <input type="email" name="name" id="email" required placeholder="abc@gamil.com">
     </div>
 
     <br>
@@ -657,7 +657,7 @@ Types....
 
     <div class="from example">
         <lable for="date">Age :</lable>
-        <input type="Date" name="name" id="age" required>
+        <input type="number" name="name" id="age" required>
     </div>
 
     <br>
@@ -679,7 +679,7 @@ Types....
         <input type="radio" id="sasquatch" name="monster" value="S">
         <label for="sasquatch">Brown</label><br>
 
-        <input type="radio" id="mothman" name="monster" value="M" />
+        <input type="radio" id="mothman" name="monster" value="M"/>
         <label for="mothman">Other</label>
 
         <div class="from example">
@@ -699,7 +699,7 @@ Types....
         <input type="radio" id="brown" name="monster" value="S">
         <label for="sasquatch">Brown</label><br>
 
-        <input type="radio" id="other" name="monster" value="M" />
+        <input type="radio" id="other" name="monster" value="M"/>
         <label for="mothman">Other</label>
 
         <div class="from example">
@@ -709,18 +709,18 @@ Types....
 
     </fieldset>
 
-        <br>
+    <br>
 
-        <fieldset>
-            <legend>Gender</legend>
+    <fieldset>
+        <legend>Gender</legend>
 
-            <input type="radio" id="male" name="monster" value="K">
-            <label for="kraken">Male</label><br>
+        <input type="radio" id="male" name="monster" value="K">
+        <label for="kraken">Male</label><br>
 
-            <input type="radio" id="female" name="monster" value="S">
-            <label for="sasquatch">Female</label><br>
+        <input type="radio" id="female" name="monster" value="S">
+        <label for="sasquatch">Female</label><br>
 
-        </fieldset>
+    </fieldset>
 
     <br>
 
@@ -747,11 +747,28 @@ Types....
         <input type="radio" id="tims2" name="monster" value="S">
         <label for="sasquatch">12.00PM</label><br>
 
-        <input type="radio" id="tims3" name="monster" value="M" />
+        <input type="radio" id="tims3" name="monster" value="M"/>
         <label for="mothman">3.00PM</label>
 
 
     </fieldset>
+
+    <br>
+    <br>
+    <br>
+
+
+
+ &lt;!&ndash;   <label for="kraken">Second Method</label><br>
+    <input type="text" id="tims22" name="monster"  list="colors">
+
+    <deatils>
+        <option value="Fair">black</option>
+        <option value="Broun">Broun</option>
+        <option value="red">Red</option>
+    </deatils>
+&ndash;&gt;
+
 
     <br>
 
@@ -772,6 +789,27 @@ Types....
         <input type="checkbox" name="peas" id="peas2">
     </div>
 
+    <br>
+
+    <div>
+        <label>Languages</label>
+
+        <select name="" id="cmb" multiple>
+            <optgroup label="local langs">
+                <option value="Sin">Sinhala</option>
+                <option value="eng">English</option>
+                <option value="tam">Tamil</option>
+            </optgroup>
+
+            <optgroup label="foriegn langs">
+                <option value="jap">Japanese</option>
+                <option value="ko">Korean</option>
+                <option value="fr">French</option>
+            </optgroup>
+
+        </select>
+    </div>
+    <br>
     <br>
 
     <label for="story">Brief about you:</label>
@@ -804,12 +842,13 @@ Types..
     </div>
 
     <br>
-    <div class="form-example">
-        <input type="submit" value="Submit!">
-    </div>
 
-</from>
+        <input type="submit">
 
+        </fieldset>
+
+
+</form>-->
 
 
 </body>

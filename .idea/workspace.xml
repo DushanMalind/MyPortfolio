@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/table.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -67,7 +66,7 @@
       <workItem from="1678773908689" duration="7021000" />
       <workItem from="1678781207717" duration="866000" />
       <workItem from="1678879759966" duration="12414000" />
-      <workItem from="1678934293385" duration="10125000" />
+      <workItem from="1678934293385" duration="15573000" />
     </task>
     <task id="LOCAL-00001" summary="video audio">
       <created>1678354972181</created>
@@ -104,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678892786814</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Tabel and From Add">
+      <created>1678945063893</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678945063893</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +122,7 @@
     <MESSAGE value="Social Media" />
     <MESSAGE value="Menu css Add" />
     <MESSAGE value="loading and Dushan css file add" />
-    <option name="LAST_COMMIT_MESSAGE" value="loading and Dushan css file add" />
+    <MESSAGE value="Tabel and From Add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tabel and From Add" />
   </component>
 </project>
