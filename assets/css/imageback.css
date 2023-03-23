@@ -1,0 +1,33 @@
+
+.home-img
+{
+  position: relative;
+}
+.home-img img:first-child
+{
+    z-index: 1;
+    position: absolute;
+}
+
+.home-img img:last-child
+{
+    z-index: 0;
+    position: relative;
+}
+.colors
+{
+    margin: auto;
+    border-radius: 5px;
+    height: 250px;
+    left: 10px;
+    animation: animateColor 10s ease-in-out infinite;
+}
+
+@keyframes animateColor {
+    0%,100%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(50px);
+    }
+}

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="all ready">
+    <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/css/color-1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/imageback.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,12 +41,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../HTML/Css/CSS-Basics" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../1 ST SEMSTER OOP/work2/connect-four-game-assignment" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\css" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\video" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assuts" />
@@ -66,7 +71,23 @@
       <workItem from="1678781207717" duration="866000" />
       <workItem from="1678879759966" duration="12414000" />
       <workItem from="1678934293385" duration="18659000" />
-      <workItem from="1679037607427" duration="297000" />
+      <workItem from="1679037607427" duration="2288000" />
+      <workItem from="1679052109597" duration="80000" />
+      <workItem from="1679056492576" duration="6939000" />
+      <workItem from="1679148812044" duration="629000" />
+      <workItem from="1679151823507" duration="1530000" />
+      <workItem from="1679153916648" duration="7666000" />
+      <workItem from="1679237309517" duration="12860000" />
+      <workItem from="1679329362810" duration="308000" />
+      <workItem from="1679369205155" duration="274000" />
+      <workItem from="1679369773076" duration="109000" />
+      <workItem from="1679400535217" duration="447000" />
+      <workItem from="1679412567147" duration="895000" />
+      <workItem from="1679489877837" duration="5168000" />
+      <workItem from="1679538892005" duration="7475000" />
+      <workItem from="1679549721203" duration="8000" />
+      <workItem from="1679558394533" duration="247000" />
+      <workItem from="1679559302428" duration="688000" />
     </task>
     <task id="LOCAL-00001" summary="video audio">
       <created>1678354972181</created>
@@ -131,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679037855190</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="all ready">
+      <created>1679037928726</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679037928726</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -147,6 +175,7 @@
     <MESSAGE value="all update" />
     <MESSAGE value="all updates" />
     <MESSAGE value="all updates 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="all updates 2" />
+    <MESSAGE value="all ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="all ready" />
   </component>
 </project>
