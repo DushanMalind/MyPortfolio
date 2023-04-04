@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/color-1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/imageback.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/stylesheet.css" afterDir="false" />
+    <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="Home And About Css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +84,13 @@
       <workItem from="1679549721203" duration="8000" />
       <workItem from="1679558394533" duration="247000" />
       <workItem from="1679559302428" duration="688000" />
+      <workItem from="1679575597422" duration="540000" />
+      <workItem from="1679682532653" duration="941000" />
+      <workItem from="1679710821189" duration="813000" />
+      <workItem from="1680155255146" duration="230000" />
+      <workItem from="1680167252641" duration="12000" />
+      <workItem from="1680509383498" duration="611000" />
+      <workItem from="1680512443225" duration="605000" />
     </task>
     <task id="LOCAL-00001" summary="video audio">
       <created>1678354972181</created>
@@ -159,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679037928726</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Home And About Css Add">
+      <created>1679575731170</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679575731170</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +186,7 @@
     <MESSAGE value="all updates" />
     <MESSAGE value="all updates 2" />
     <MESSAGE value="all ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="all ready" />
+    <MESSAGE value="Home And About Css Add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Home And About Css Add" />
   </component>
 </project>
