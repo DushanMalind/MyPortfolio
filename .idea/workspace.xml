@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="Home And About Css">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,6 +89,7 @@
       <workItem from="1680167252641" duration="12000" />
       <workItem from="1680509383498" duration="611000" />
       <workItem from="1680512443225" duration="605000" />
+      <workItem from="1680618390680" duration="575000" />
     </task>
     <task id="LOCAL-00001" summary="video audio">
       <created>1678354972181</created>
@@ -169,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679575731170</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Assigment">
+      <created>1680618423009</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1680618423009</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +193,7 @@
     <MESSAGE value="all updates 2" />
     <MESSAGE value="all ready" />
     <MESSAGE value="Home And About Css Add" />
-    <option name="LAST_COMMIT_MESSAGE" value="Home And About Css Add" />
+    <MESSAGE value="Assigment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assigment" />
   </component>
 </project>
