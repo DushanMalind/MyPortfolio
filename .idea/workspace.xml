@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +95,7 @@
       <workItem from="1680618390680" duration="1166000" />
       <workItem from="1681149658097" duration="3111000" />
       <workItem from="1681185616693" duration="1000000" />
-      <workItem from="1681265242801" duration="408000" />
+      <workItem from="1681265242801" duration="3127000" />
     </task>
     <task id="LOCAL-00001" summary="video audio">
       <created>1678354972181</created>
@@ -189,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680619098074</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Eduction">
+      <created>1681265724323</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681265724323</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +214,7 @@
     <MESSAGE value="all ready" />
     <MESSAGE value="Home And About Css Add" />
     <MESSAGE value="Assigment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Assigment" />
+    <MESSAGE value="Eduction" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eduction" />
   </component>
 </project>
