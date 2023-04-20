@@ -30,6 +30,7 @@
             position: relative;
             display: flex;
             list-style: none;
+            bottom: 5px;
 
         }
 
@@ -61,7 +62,7 @@
             !*background: blueviolet;*!
         }*/
         footer{
-            width: 100vh;
+            width: 100%;
             background-color: #504e70;
             right: 0;
             left: 0;
@@ -112,8 +113,36 @@
         }
 
         body>main>section{
-           margin-left: 300px;
+           margin-left: 320px;
             flex: 0 0 100%;
+        }
+
+        body>main>section>p:last-child{
+            margin: 0;
+        }
+        footer>p{
+            margin: 0;
+        }
+
+        body>main>section>section{
+            position: relative;
+            height: 300px;
+        }
+
+        body>main>section>section>div{
+            height: 100%;
+            width: calc(100%/3);
+            position: absolute;
+        }
+
+        body>main>section>section>div:nth-child(2){
+            left: 0;
+            right: 0;
+            top: 0;
+            margin: auto;
+        }
+        body>main>section>section>div:nth-child(3){
+           right: 0;
         }
 
     </style>
@@ -140,6 +169,7 @@
 
 </header>
 <main>
+
     <nav>
         <ul>
 
@@ -157,9 +187,21 @@
 
     <section>
 
-        <img alt="audi" src="../../../assets/img/tech.jpg" width="350px" >
-        <img alt="audi" src="../../../assets/img/tech.jpg" width="350px" >
-        <img alt="audi" src="../../../assets/img/tech.jpg" width="350px" >
+        <section>
+            <div>
+                <img alt="audi" src="../../../assets/img/tech.jpg" width="200px" >
+
+            </div>
+            <div>
+                <img alt="audi" src="../../../assets/img/tech.jpg" width="200px" >
+
+            </div>
+            <div>
+                <img alt="audi" src="../../../assets/img/tech.jpg" width="200px" >
+            </div>
+        </section>
+
+
 
         <p>Lorem ipsum dolor sit amet, consectetur
             adipisicing elit. A animi consequatur corporis fuga itaque laborum
@@ -188,15 +230,30 @@
         </p>
 
 
+      <!--  <img alt="audi" src="../../../assets/img/tech.jpg" width="350px" >
         <img alt="audi" src="../../../assets/img/tech.jpg" width="350px" >
-        <img alt="audi" src="../../../assets/img/tech.jpg" width="350px" >
-        <img alt="audi" src="../../../assets/img/tech.jpg" width="350px" >
+        <img alt="audi" src="../../../assets/img/tech.jpg" width="350px" >-->
 
         <p>Lorem ipsum dolor sit amet, consectetur
             adipisicing elit. A animi consequatur corporis fuga itaque laborum
             molestias quia saepe sit vero. Consectetur cumque doloribus natus, quos
             soluta suscipit temporibus voluptate voluptatem?
         </p>
+
+        <section>
+            <div>
+                <img alt="audi" src="../../../assets/img/tech.jpg" width="200px" >
+
+            </div>
+            <div>
+                <img alt="audi" src="../../../assets/img/tech.jpg" width="200px" >
+
+            </div>
+            <div>
+                <img alt="audi" src="../../../assets/img/tech.jpg" width="200px" >
+            </div>
+        </section>
+
         <p>Lorem ipsum dolor sit amet, consectetur
             adipisicing elit. A animi consequatur corporis fuga itaque laborum
             molestias quia saepe sit vero. Consectetur cumque doloribus natus, quos
