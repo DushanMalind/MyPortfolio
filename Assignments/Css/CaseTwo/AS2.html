@@ -11,19 +11,26 @@
 
         body > header {
 
-            border: 2px solid black;
-            display: flex;
-            position: relative;
+            background: white;
+            /*x-offset, y-offset, blur radius, spread radius, color*/
+            box-shadow: 4px 1px 4px 0px #0000005c;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 3;
+
         }
 
         body > header > img {
             position: relative;
             display: inline;
+
         }
 
         body > header > nav {
             position: absolute;
             right: 0;
+            top: 10px;
         }
 
         body > header > nav > ul {
@@ -62,19 +69,17 @@
             !*background: blueviolet;*!
         }*/
         footer{
-            width: 100%;
-            background-color: #504e70;
-            right: 0;
-            left: 0;
-            top: 10px;
-            margin: auto;
+            height: 60px;
+            background: gray;
         }
 
         footer p{
-            font-size: 15px;
-            padding-top: 10px;
+            font-weight: bold;
             text-align: center;
-            top: 0;
+            padding-top: 10px;
+            color: white;
+            margin-top: 0;
+
         }
 
         body>main{
@@ -94,11 +99,15 @@
 
             position: absolute;
             left: 0;
+            top: 50px;
+            position: fixed;
+
         }
 
         body > main > nav > ul {
             position: relative;
             list-style: none;
+
 
         }
 
@@ -122,6 +131,10 @@
         }
         footer>p{
             margin: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+
         }
 
         body>main>section>section{
@@ -133,6 +146,7 @@
             height: 100%;
             width: calc(100%/3);
             position: absolute;
+            background: url("../../../assets/img/tech.jpg");
         }
 
         body>main>section>section>div:nth-child(2){
@@ -140,9 +154,11 @@
             right: 0;
             top: 0;
             margin: auto;
+            background: url("../../../assets/img/tech.jpg");
         }
         body>main>section>section>div:nth-child(3){
            right: 0;
+            background: url("../../../assets/img/tech.jpg");
         }
 
     </style>
@@ -189,15 +205,15 @@
 
         <section>
             <div>
-                <img alt="audi" src="../../../assets/img/tech.jpg" width="200px" >
+               <!-- <img alt="audi" src="../../../assets/img/tech.jpg" width="200px" >-->
 
             </div>
             <div>
-                <img alt="audi" src="../../../assets/img/tech.jpg" width="200px" >
+<!--                <img alt="audi" src="../../../assets/img/tech.jpg" width="200px" >-->
 
             </div>
             <div>
-                <img alt="audi" src="../../../assets/img/tech.jpg" width="200px" >
+<!--                <img alt="audi" src="../../../assets/img/tech.jpg" width="200px" >-->
             </div>
         </section>
 
@@ -278,7 +294,7 @@
 
 </main>
 <footer>
-    <p>Designed By Luci</p>
+    <p>Designed By Dushan Malinda</p>
 </footer>
 
 </body>
