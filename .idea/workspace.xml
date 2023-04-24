@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Css/CaseThree/AS3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Css/CaseThree/AS3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Css/CaseFour/AS4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Css/CaseFour/AS4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,7 @@
       <workItem from="1682047480271" duration="13836000" />
       <workItem from="1682154327910" duration="618000" />
       <workItem from="1682168450676" duration="85000" />
-      <workItem from="1682347873570" duration="7387000" />
+      <workItem from="1682347873570" duration="9600000" />
     </task>
     <task id="LOCAL-00001" summary="video audio">
       <created>1678354972181</created>
@@ -252,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682355468376</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="complete color">
+      <created>1682355806458</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1682355806458</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +285,7 @@
     <MESSAGE value="AS3 complete" />
     <MESSAGE value="AS4 complete" />
     <MESSAGE value="complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete" />
+    <MESSAGE value="complete color" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete color" />
   </component>
 </project>
