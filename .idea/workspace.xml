@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignments/Css/CaseFour/AS4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/normalize.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Css/CaseFour/AS4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Css/CaseFour/AS4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Css/CaseThree/AS3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Css/CaseThree/AS3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -106,7 +108,10 @@
       <workItem from="1681815851191" duration="1206000" />
       <workItem from="1681887641923" duration="1283000" />
       <workItem from="1681964300510" duration="18278000" />
-      <workItem from="1682047480271" duration="9006000" />
+      <workItem from="1682047480271" duration="13836000" />
+      <workItem from="1682154327910" duration="618000" />
+      <workItem from="1682168450676" duration="85000" />
+      <workItem from="1682347873570" duration="7046000" />
     </task>
     <task id="LOCAL-00001" summary="video audio">
       <created>1678354972181</created>
@@ -234,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682057707756</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="AS4 complete">
+      <created>1682062165794</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1682062165794</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +270,7 @@
     <MESSAGE value="AS2" />
     <MESSAGE value="AS2 complete" />
     <MESSAGE value="AS3 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="AS3 complete" />
+    <MESSAGE value="AS4 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="AS4 complete" />
   </component>
 </project>

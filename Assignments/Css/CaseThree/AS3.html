@@ -2,162 +2,108 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link href="assests/normalize.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Case Three</title>
+    <link href="/assets/css/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
 
     <style>
-        body>section{
-            position: relative;
-            border: 2px solid black;
-            width: 100vm;
-            height: 600px;
-            left: 0;
-            right: 0;
-            top: 0px;
-            margin: auto;
 
-
-
-        }
-        body>section>div{
-            width: 50%;
-            height: 50%;
-            position: absolute;
+        #container>div{
+            position: fixed;
             left: 0;
             right: 0;
             top: 0;
             bottom: 0;
             margin: auto;
+            border-radius: 100%;
 
+            z-index: 2;
         }
-        body>section>div:nth-child(1){
-            border-radius: 300px;
+        #container>div:nth-child(1){
+            border: grey solid 20px;
             width: 300px;
             height: 300px;
-            background-color: #504e70;
-            left: 0;
-            right: 0;
-            top: 0;
-            margin: auto;
         }
 
-        body>section>div:nth-child(2){
-            border-radius: 250px;
-            width: 250px;
-            height: 250px;
-            background-color: red;
-            left: 0;
-            right: 0;
-            top: 0;
-            margin: auto;
+        #container>div:nth-child(2){
+            border: red solid 20px;
+            width: 260px;
+            height: 260px;
         }
 
-        body>section>div:nth-child(3){
-            border-radius: 200px;
-            width: 200px;
-            height: 200px;
-            background-color: blueviolet;
-            left: 0;
-            right: 0;
-            top: 0;
-            margin: auto;
-        }
-
-        body>section>div>div{
-            position: fixed;
-
-        }
-
-        body>section>div>div>h4{
-            color: white;
-            text-align: center;
+        div{
             left: 0;
             right: 0;
             top: 0;
             bottom: 0;
-            margin-top: 85px;
-            width: 199px;
-            height: 81px;
-
+            margin: auto;
+            border-radius: 100%;
         }
 
+        .nav{
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .nav>div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            top : 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 260px;
+            height: 260px;
+        }
+
+        .nav>div>p{
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        section:nth-child(2)>div{
+            background: #ab14ff;
+        }
+
+        section:nth-child(3)>div{
+            background: #83a2ff;
+        }
+
+        section:nth-child(4)>div{
+            background: #ff7663;
+        }
+
+
     </style>
+
 </head>
 <body>
+<section id="container">
+    <div></div>
+    <div></div>
+</section>
 
-<section>
-    <div></div>
-    <div></div>
+<section class="nav">
     <div>
-        <div>
-            <h4>Hello</h4>
-        </div>
-
+        <p>Hello</p>
     </div>
 </section>
 
+<section class="nav" >
+    <div>
+        <p>Welcome to</p>
+    </div>
+</section>
 
-<!--<main>
-    <p>Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. A animi consequatur corporis fuga itaque laborum
-        molestias quia saepe sit vero. Consectetur cumque doloribus natus, quos
-        soluta suscipit temporibus voluptate voluptatem?
-    </p>
-    <p>Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. A animi consequatur corporis fuga itaque laborum
-        molestias quia saepe sit vero. Consectetur cumque doloribus natus, quos
-        soluta suscipit temporibus voluptate voluptatem?
-    </p>
-    <p>Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. A animi consequatur corporis fuga itaque laborum
-        molestias quia saepe sit vero. Consectetur cumque doloribus natus, quos
-        soluta suscipit temporibus voluptate voluptatem?
-    </p>
-    <p>Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. A animi consequatur corporis fuga itaque laborum
-        molestias quia saepe sit vero. Consectetur cumque doloribus natus, quos
-        soluta suscipit temporibus voluptate voluptatem?
-        soluta suscipit temporibus voluptate voluptatem?</p>
-    <p>Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. A animi consequatur corporis fuga itaque laborum
-        molestias quia saepe sit vero. Consectetur cumque doloribus natus, quos
-        soluta suscipit temporibus voluptate voluptatem?
-    </p>
-    <p>Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. A animi consequatur corporis fuga itaque laborum
-        molestias quia saepe sit vero. Consectetur cumque doloribus natus, quos
-        soluta suscipit temporibus voluptate voluptatem?
-    </p>
-    <p>Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. A animi consequatur corporis fuga itaque laborum
-        molestias quia saepe sit vero. Consectetur cumque doloribus natus, quos
-        soluta suscipit temporibus voluptate voluptatem?
-    </p>
-    <p>Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. A animi consequatur corporis fuga itaque laborum
-        molestias quia saepe sit vero. Consectetur cumque doloribus natus, quos
-        soluta suscipit temporibus voluptate voluptatem?
-        soluta suscipit temporibus voluptate voluptatem?</p><p>Lorem ipsum dolor sit amet, consectetur
-    adipisicing elit. A animi consequatur corporis fuga itaque laborum
-    molestias quia saepe sit vero. Consectetur cumque doloribus natus, quos
-    soluta suscipit temporibus voluptate voluptatem?
-</p>
-    <p>Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. A animi consequatur corporis fuga itaque laborum
-        molestias quia saepe sit vero. Consectetur cumque doloribus natus, quos
-        soluta suscipit temporibus voluptate voluptatem?
-    </p>
-    <p>Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. A animi consequatur corporis fuga itaque laborum
-        molestias quia saepe sit vero. Consectetur cumque doloribus natus, quos
-        soluta suscipit temporibus voluptate voluptatem?
-    </p>
-    <p>Lorem ipsum dolor sit amet, consectetur
-        adipisicing elit. A animi consequatur corporis fuga itaque laborum
-        molestias quia saepe sit vero. Consectetur cumque doloribus natus, quos
-        soluta suscipit temporibus voluptate voluptatem?
-        soluta suscipit temporibus voluptate voluptatem?</p>
-</main>-->
+<section class="nav">
+    <div>
+        <p>Institute Of Software Engineering</p>
+    </div>
+</section>
 </body>
 </html>

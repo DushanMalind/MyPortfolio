@@ -2,70 +2,122 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link href="assests/normalize.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <title>Case Four</title>
+    <link href="/assets/css/normalize.css" rel="stylesheet">
 
     <style>
 
-        body{
-            margin: 0;
-            position: relative;
+        section {
+            width: 100%;
+            height: 100vh;
         }
 
-        body>main{
-            position: relative;
-            margin: 0;
+        section > section {
+            height: 90%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
 
-        footer{
-            height: 60px;
-            background: #ec1839;
-            margin: 0;
-            position: relative;
+        section > section > p {
+            font-size: 150px;
         }
-        footer p{
+
+        section > div > p{
+            font-size: 40px;
+        }
+
+        section > div {
+            width: 100%;
+            height: 10%;
             color: white;
-            padding-top: 10px;
-            margin-top: 0;
-            left: 50px;
-            right: 0;
-            bottom: 0;
-            padding-left: 10px;
-            text-align: left;
-            font-size: 30px;
-        }
-
-        section{
-            position: relative;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            margin: 0;
-        }
-
-        section h1{
-            width: 100px;
-            height: 100px;
             position: sticky;
-            padding-top: 300px;
-            text-align: center;
-            left: 880px;
-            font-size: 80px;
+            top: 0;
+        }
+
+        section:nth-child(1) > div {
+            background: red;
+        }
+
+        section:nth-child(1) > section {
+            background: white;
+        }
+
+        section:nth-child(2) > div {
+            background: blue;
+        }
+
+        section:nth-child(2) > section {
+            background: #83a2ff;
+        }
+
+        section:nth-child(3) > div {
+            background: black;
+        }
+
+        section:nth-child(3) > section {
+            background: #333960;
+        }
+
+        section:nth-child(4) > div {
+            background: #8f4242;
+        }
+
+        section:nth-child(4) > section {
+            background: #fd4040;
+        }
+
+        section > div > p {
+            margin-top: 0px;
+            padding-left: 15px;
+            padding-top: 15px;
         }
 
     </style>
+
 </head>
 <body>
 
-<footer>
-    <p>Card 1</p>
-</footer>
-
 <section>
-<h1>Hello</h1>
+    <div>
+        <p> Card 01</p>
+    </div>
+
+    <section>
+        <p> Hello</p>
+    </section>
 </section>
 
+<section>
+    <div>
+        <p> Card 02</p>
+    </div>
+
+    <section>
+        <p> How</p>
+    </section>
+</section>
+
+<section>
+    <div>
+        <p> Card 03</p>
+    </div>
+
+    <section>
+        <p> Are</p>
+    </section>
+</section>
+
+<section>
+    <div>
+        <p> Card 04</p>
+    </div>
+
+    <section>
+        <p> You ..?</p>
+    </section>
+</section>
 
 </body>
 </html>
+
