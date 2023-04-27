@@ -118,7 +118,7 @@
       <workItem from="1682400101260" duration="13522000" />
       <workItem from="1682473237791" duration="107000" />
       <workItem from="1682473433914" duration="894000" />
-      <workItem from="1682574607930" duration="8518000" />
+      <workItem from="1682574607930" duration="19518000" />
     </task>
     <task id="LOCAL-00001" summary="video audio">
       <created>1678354972181</created>
@@ -302,14 +302,20 @@
       <option name="project" value="LOCAL" />
       <updated>1682580243363</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Contact section ok">
+      <created>1682585958280</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1682585958280</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="video audio" />
     <MESSAGE value="data add" />
     <MESSAGE value="Social Media" />
     <MESSAGE value="Menu css Add" />
@@ -334,6 +340,7 @@
     <MESSAGE value="Project ok" />
     <MESSAGE value="All" />
     <MESSAGE value="Experience section ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="Experience section ok" />
+    <MESSAGE value="Contact section ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contact section ok" />
   </component>
 </project>

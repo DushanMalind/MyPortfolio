@@ -381,6 +381,18 @@ h3.hello span
     height: 250px;
 }
 
+/*social Media*/
+.social-media{
+    position: relative;
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.social-media figure img{
+    margin-right: 20px;
+}
+
 /*about*/
 
 .about .about-content
@@ -835,8 +847,57 @@ h3.hello span
 
 .contact .contact-form .btn
 {
-     height: 50px;
+    height: 50px;
     padding: 0 50px;
+}
+
+@media (max-width: 1199px) {
+    .aside{
+        left: -270px;
+    }
+
+    .main-content{
+        padding-left: 0;
+    }
+
+    .about .about-content .personal-info .info-item p span{
+        display: block;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 991px)
+{
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .home .home-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .home .home-img{
+     /*  display: none;*/
+  }
+}
+
+@media (max-width: 767px)
+{
+    .contact .contact-form .col-6,
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item,
+    .about .about-content .experience,
+    .about .about-content .education,
+    .about .about-content .skill,
+    .about .about-content .personal-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
 
 
