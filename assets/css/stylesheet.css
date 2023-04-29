@@ -393,6 +393,20 @@ h3.hello span
     margin-right: 20px;
 }
 
+.social-media-contact{
+    position: relative;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 500px;
+
+}
+
+.social-media-contact figure img{
+    margin-right: 20px;
+
+}
+
+
 /*about*/
 
 .about .about-content
@@ -782,7 +796,7 @@ h3.hello span
     color: var(--skin-color);
 }
 
-.contact .contact-info-item h4P
+.contact .contact-info-item h4 P
 {
     font-size: 18px;
     font-weight: 700;

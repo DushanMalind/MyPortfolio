@@ -2,6 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignments/Css/CaseFive/AS5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Css/CaseSix/AS6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Css/image/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Css/image/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Css/image/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Css/image/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Css/image/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Css/image/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Css/image/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Css/image/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Css/image/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Css/image/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Css/image/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Css/image/9.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -40,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignments/Css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -49,6 +64,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Css" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\css" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\img" />
     </key>
@@ -119,6 +135,10 @@
       <workItem from="1682473237791" duration="107000" />
       <workItem from="1682473433914" duration="894000" />
       <workItem from="1682574607930" duration="19518000" />
+      <workItem from="1682605771290" duration="813000" />
+      <workItem from="1682685463814" duration="3361000" />
+      <workItem from="1682691928166" duration="241000" />
+      <workItem from="1682753195250" duration="2648000" />
     </task>
     <task id="LOCAL-00001" summary="video audio">
       <created>1678354972181</created>
@@ -309,14 +329,20 @@
       <option name="project" value="LOCAL" />
       <updated>1682585958280</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Social media">
+      <created>1682605915248</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1682605915249</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="data add" />
     <MESSAGE value="Social Media" />
     <MESSAGE value="Menu css Add" />
     <MESSAGE value="loading and Dushan css file add" />
@@ -341,6 +367,7 @@
     <MESSAGE value="All" />
     <MESSAGE value="Experience section ok" />
     <MESSAGE value="Contact section ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="Contact section ok" />
+    <MESSAGE value="Social media" />
+    <option name="LAST_COMMIT_MESSAGE" value="Social media" />
   </component>
 </project>
