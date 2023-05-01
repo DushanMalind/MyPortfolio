@@ -381,12 +381,77 @@ h3.hello span
     height: 250px;
 }
 
+
+body .photo header
+{
+    box-shadow: 4px 2px 4px 0px #3C79F5;
+    background: var(--skin-color);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 6;
+}
+
+body .photo header img
+{
+    top: 5px;
+    left: 10px;
+    width: 100px;
+    position: relative;
+    display: inline;
+}
+
+
+.home svg{
+    position: relative;
+    width: 60px;
+    height: 40px;
+    transform: translate(-50%,-50%);
+    animation: rotate 3s linear infinite;
+    color: var(--skin-color);
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform:rotate(90deg);
+    }
+    100%{
+        transform:rotate(180deg);
+    }
+}
+
+.home .sav2{
+    position: relative;
+    width: 60px;
+    height: 40px;
+    transform: translate(-50%,-50%);
+    animation: rotates2 3s linear infinite;
+    color: var(--skin-color);
+}
+
+@keyframes rotates2 {
+    100%{
+        transform: rotate(-180deg);
+    }
+    0%{
+        transform:rotate(0deg);
+    }
+
+}
+
 /*social Media*/
 .social-media{
     position: relative;
     display: flex;
     margin-top: 15px;
 
+}
+
+.social-media img{
+    width: 40px;
 }
 
 .social-media figure img{
@@ -405,6 +470,74 @@ h3.hello span
     margin-right: 20px;
 
 }
+
+/*.social-media ul
+{
+    position: relative;
+    display: flex;
+    top: 20px;
+}
+
+.social-media ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+
+}
+
+.social-media ul li a
+{
+    text-decoration: none;
+
+}
+
+.social-media ul li a .fa-brands
+{
+    font-size: 30px;
+    color: #222;
+}
+
+.social-media ul li::before{
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 25px;
+    top: 0;
+    bottom: 0;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+
+.social-media ul li:nth-child(1)::before
+{
+    content: '\f09a';
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+.social-media ul li:nth-child(2)::before
+{
+    content: '\f167';
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.social-media ul li:nth-child(3)::before
+{
+    content: '\f16d';
+    color: darkmagenta;
+    border-bottom: 2px solid darkmagenta;
+}
+
+.social-media ul li:hover::before
+{
+    height: 100%;
+}*/
+
 
 
 /*about*/
