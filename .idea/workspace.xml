@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/color-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/color-1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -129,7 +128,7 @@
       <workItem from="1682767342695" duration="233000" />
       <workItem from="1682767633040" duration="1082000" />
       <workItem from="1682777599653" duration="839000" />
-      <workItem from="1682910595847" duration="23309000" />
+      <workItem from="1682910595847" duration="36310000" />
     </task>
     <task id="LOCAL-00001" summary="video audio">
       <created>1678354972181</created>
@@ -334,14 +333,20 @@
       <option name="project" value="LOCAL" />
       <updated>1682755943128</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="fixed">
+      <created>1682939358493</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1682939358493</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Menu css Add" />
     <MESSAGE value="loading and Dushan css file add" />
     <MESSAGE value="Tabel and From Add" />
     <MESSAGE value="all update" />
@@ -366,6 +371,7 @@
     <MESSAGE value="Contact section ok" />
     <MESSAGE value="Social media" />
     <MESSAGE value="AS5,AS6" />
-    <option name="LAST_COMMIT_MESSAGE" value="AS5,AS6" />
+    <MESSAGE value="fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed" />
   </component>
 </project>

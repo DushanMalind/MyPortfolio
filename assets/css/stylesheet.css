@@ -419,7 +419,7 @@ body .photo header img
         transform:rotate(90deg);
     }
     100%{
-        transform:rotate(180deg);
+        transform:rotate(360deg);
     }
 }
 
@@ -998,11 +998,35 @@ body .photo header img
     padding: 0 50px;
 }
 
+/*input
+{
+    -webkit-appearance: none;
+    visibility: hidden;
+    display: flex;
+}
+
+label span{
+    position: relative;
+    right: -40px;
+    top: 60px;
+    font-size: 25px;
+    border-radius: 3px;
+    cursor: pointer;
+    background: #e41cf8;
+}
+#bars{
+    background: red;
+}
+
+#check:checked ~ .main-content{
+    transform: translate(0);
+}*/
+
+
 @media (max-width: 1199px) {
     .aside{
         left: -270px;
     }
-
     .main-content{
         padding-left: 0;
     }
