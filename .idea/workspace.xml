@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +129,7 @@
       <workItem from="1682767633040" duration="1082000" />
       <workItem from="1682777599653" duration="839000" />
       <workItem from="1682910595847" duration="37281000" />
-      <workItem from="1683015008268" duration="698000" />
+      <workItem from="1683015008268" duration="2192000" />
     </task>
     <task id="LOCAL-00001" summary="video audio">
       <created>1678354972181</created>
@@ -347,14 +348,20 @@
       <option name="project" value="LOCAL" />
       <updated>1682955698862</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="fixed 2 test">
+      <created>1683015937059</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1683015937059</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Tabel and From Add" />
     <MESSAGE value="all update" />
     <MESSAGE value="all updates" />
     <MESSAGE value="all updates 2" />
@@ -379,6 +386,7 @@
     <MESSAGE value="AS5,AS6" />
     <MESSAGE value="fixed" />
     <MESSAGE value="fixed 1 test" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed 1 test" />
+    <MESSAGE value="fixed 2 test" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed 2 test" />
   </component>
 </project>

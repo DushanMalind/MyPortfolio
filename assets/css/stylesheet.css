@@ -1058,6 +1058,7 @@ label span{
 
 @media (max-width: 767px)
 {
+    .social-media figure img,
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
