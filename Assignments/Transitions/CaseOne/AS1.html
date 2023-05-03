@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transitions</title>
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/fontawesome-free-6.4.0-web/css/all.min.css">
+    <style>
+        section {
+            width: 300px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            position: relative;
+            top: 130px;
+            right: 200px;
+        }
+        section>div{
+            position: relative;
+            height: 50px;
+            left: 0;
+            transition: all 2s;
+            background: #e41cf8;
+
+        }
+        section>div:hover{
+            left: 230px;
+            transition: all 1s;
+        }
+        div>h1{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 20px;
+            margin: auto;
+            height: max-content;
+            width: max-content;
+            color: white;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 20px;
+        }
+        div>i{
+            font-size: 20px;
+            color: white;
+            position: absolute;
+            height: max-content;
+            width: max-content;
+            top: 0;
+            bottom: 0;
+            right: 20px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <div>
+        <h1>Menu 1</h1>
+        <i class="fa fa-home" aria-hidden="true"></i>
+    </div>
+    <div>
+        <h1>Menu 2</h1>
+        <i class="fa fa-home" aria-hidden="true"></i>
+    </div>
+    <div>
+        <h1>Menu 3</h1>
+        <i class="fa fa-home" aria-hidden="true"></i>
+    </div>
+    <div>
+        <h1>Menu 4</h1>
+        <i class="fa fa-home" aria-hidden="true"></i>
+    </div>
+    <div>
+        <h1>Menu 5</h1>
+        <i class="fa fa-home" aria-hidden="true"></i>
+    </div>
+</section>
+
+</body>
+</html>
