@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Transitions/CaseOne/AS1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Transitions/CaseOne/AS1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +144,8 @@
       <workItem from="1683093483473" duration="6000" />
       <workItem from="1683099550979" duration="7000" />
       <workItem from="1683102764729" duration="639000" />
-      <workItem from="1683104072629" duration="4985000" />
+      <workItem from="1683104072629" duration="5005000" />
+      <workItem from="1683122868744" duration="2427000" />
     </task>
     <task id="LOCAL-00001" summary="video audio">
       <created>1678354972181</created>

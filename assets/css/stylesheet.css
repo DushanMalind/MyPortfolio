@@ -378,7 +378,7 @@ h3.hello span
 {
     margin: auto;
     border-radius: 5px;
-    height: 250px;
+    width: 300px;
 }
 
 
@@ -446,19 +446,21 @@ body .photo header img
 .social-media{
     position: relative;
     display: flex;
+    flex-direction: row;
     margin-top: 15px;
 
 }
 
 .social-media img{
     width: 40px;
+
 }
 
 .social-media figure img{
     margin-right: 20px;
 }
 
-.social-media-contact{
+/*.social-media-contact{
     position: relative;
     display: flex;
     margin-top: 10px;
@@ -469,7 +471,7 @@ body .photo header img
 .social-media-contact figure img{
     margin-right: 20px;
 
-}
+}*/
 
 /*.social-media ul
 {
@@ -1052,7 +1054,7 @@ label span{
     }
 
     .home .home-img{
-     /*  display: none;*/
+      /* display: none;*/
   }
 }
 
@@ -1063,6 +1065,7 @@ label span{
     .contact .contact-info-item,
     .portfolio .portfolio-item,
     .service .service-item,
+    .about .about-content .personal-info .info-item,
     .about .about-content .experience,
     .about .about-content .education,
     .about .about-content .skill,
@@ -1070,6 +1073,23 @@ label span{
         flex: 0 0 100%;
         max-width: 100%;
     }
+}
+@media (max-width: 450px) {
+    .home .home-img{
+        position: relative;
+        width: 50px;
+    }
+
+    .home .social-media  {
+        position: relative;
+        flex-direction: column;
+    }
+
+    .portfolio .social-media{
+        position: relative;
+        flex-direction: column;
+    }
+
 }
 
 
