@@ -378,8 +378,80 @@ h3.hello span
 {
     margin: auto;
     border-radius: 5px;
-    width: 300px;
+    width: 250px;
 }
+
+.home .bubbles img
+{
+    width: 50px;
+    animation: bubble 7s linear infinite;
+}
+
+.home .bubbles
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    bottom: -70px;
+
+}
+
+@keyframes bubble {
+    0%{
+        transform: translateY(0);
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(-80vh);
+        opacity: 0;
+    }
+}
+
+.home .bubbles img:nth-child(1)
+{
+    animation-delay: 2s;
+}
+
+.home .bubbles img:nth-child(2)
+{
+    animation-delay: 1s;
+}
+
+.home .bubbles img:nth-child(3)
+{
+    animation-delay: 3s;
+}
+
+.home .bubbles img:nth-child(4)
+{
+    animation-delay: 4.5s;
+}
+
+.home .bubbles img:nth-child(5)
+{
+    animation-delay: 3s;
+}
+
+.home .bubbles img:nth-child(6)
+{
+    animation-delay: 5s;
+}
+
+.home .bubbles img:nth-child(7)
+{
+    animation-delay: 4s;
+}
+
+
+
+
 
 
 body .photo header
@@ -411,6 +483,10 @@ body .photo header img
     color: var(--skin-color);
 }
 
+.home svg:hover{
+    animation-play-state: paused;
+}
+
 @keyframes rotate {
     0%{
         transform: rotate(0deg);
@@ -429,6 +505,7 @@ body .photo header img
     height: 40px;
     transform: translate(-50%,-50%);
     animation: rotates2 3s linear infinite;
+    animation-direction: revert;
     color: var(--skin-color);
 }
 
@@ -1078,6 +1155,44 @@ label span{
     .home .home-img{
         position: relative;
         width: 50px;
+    }
+
+    .home .social-media  {
+        position: relative;
+        flex-direction: column;
+    }
+
+    .portfolio .social-media{
+        position: relative;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 321px) {
+    .home .bubbles img,
+    .home .home-img{
+        position: relative;
+        width: 20px;
+    }
+
+    .home .social-media  {
+        position: relative;
+        flex-direction: column;
+    }
+
+    .portfolio .social-media{
+        position: relative;
+        flex-direction: column;
+    }
+
+}
+
+@media (max-width: 279px) {
+    .home .bubbles img,
+    .home .home-img{
+        position: relative;
+        width: 20px;
     }
 
     .home .social-media  {
