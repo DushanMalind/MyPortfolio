@@ -175,6 +175,7 @@ ul
     top: 50px;
     font-size: 30px;
     text-transform: capitalize;
+    animation: animate 10s linear infinite;
 }
 
 .aside .logo a
@@ -185,7 +186,27 @@ ul
     font-size: 30px;
     letter-spacing: 5px;
     position: relative;
+    animation: animate  linear infinite;
 }
+
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: rotateY(360deg);
+        color: #e41cf8;
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(-180deg);
+    }
+}
+
+.aside .logo:hover
+{
+    animation-play-state: paused;
+
+}
+
 
 .aside .logo a span
 {
@@ -286,6 +307,13 @@ ul
 
 .aside .nav li a.active
 {
+    color: var(--skin-color);
+    transition: all 0.4s ease;
+}
+
+.aside .nav li a:hover
+{
+    transform: scale(1.05);
     color: var(--skin-color);
 }
 
@@ -481,10 +509,15 @@ body .photo header img
     transform: translate(-50%,-50%);
     animation: rotate 3s linear infinite;
     color: var(--skin-color);
+    cursor: pointer;
+    transition: 5s;
 }
 
 .home svg:hover{
-    animation-play-state: paused;
+    /*animation-play-state: paused;*/
+    transition: 5s;
+    border-radius: 100%;
+    background:  var(--skin-color);
 }
 
 @keyframes rotate {
@@ -525,16 +558,20 @@ body .photo header img
     display: flex;
     flex-direction: row;
     margin-top: 15px;
-
 }
 
 .social-media img{
     width: 40px;
-
 }
 
 .social-media figure img{
     margin-right: 20px;
+    transition: all 0.5s ease;
+}
+
+.social-media:hover
+{
+    transform: scale(1.05);
 }
 
 /*.social-media-contact{
@@ -969,6 +1006,13 @@ body .photo header img
 {
     width: 100%;
     display: block;
+    transition: all 0.4s ease;
+}
+
+.portfolio .portfolio-item-inner .portfolio-img img:hover
+{
+    transform: scale(1.05);
+
 }
 
 /*Contact*/

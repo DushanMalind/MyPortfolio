@@ -2,3 +2,15 @@
 {
     --skin-color:#0081C9;
 }
+
+
+.aside .nav li a.active
+{
+    color: var(--skin-color);
+    transition: all 0.4s ease;
+}
+
+.aside .nav li a:hover
+{
+    transform: scale(1.05);
+}
