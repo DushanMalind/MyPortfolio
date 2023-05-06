@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/CaseFour/AS4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/CaseFive/AS5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/img/A.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/img/B.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/img/C.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/img/D.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/img/E.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignments/Transitions/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -49,6 +54,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Transitions\img" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\img" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Css" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\css" />
@@ -147,7 +153,7 @@
       <workItem from="1683122868744" duration="6268000" />
       <workItem from="1683131748749" duration="161000" />
       <workItem from="1683178040459" duration="12983000" />
-      <workItem from="1683365821393" duration="14407000" />
+      <workItem from="1683365821393" duration="22832000" />
     </task>
     <task id="LOCAL-00001" summary="video audio">
       <created>1678354972181</created>
@@ -422,14 +428,20 @@
       <option name="project" value="LOCAL" />
       <updated>1683379103804</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Transitions AS4">
+      <created>1683380356476</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1683380356476</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Eduction data" />
     <MESSAGE value="AS2" />
     <MESSAGE value="AS2 complete" />
     <MESSAGE value="AS3 complete" />
@@ -454,6 +466,7 @@
     <MESSAGE value="animations My" />
     <MESSAGE value="Transitions AS2" />
     <MESSAGE value="Transitions AS3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Transitions AS3" />
+    <MESSAGE value="Transitions AS4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Transitions AS4" />
   </component>
 </project>
