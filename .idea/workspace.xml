@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/CaseTwo/AS2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/color-1.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/color-1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/stylesheet.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +146,8 @@
       <workItem from="1683104072629" duration="5005000" />
       <workItem from="1683122868744" duration="6268000" />
       <workItem from="1683131748749" duration="161000" />
-      <workItem from="1683178040459" duration="12329000" />
+      <workItem from="1683178040459" duration="12983000" />
+      <workItem from="1683365821393" duration="11906000" />
     </task>
     <task id="LOCAL-00001" summary="video audio">
       <created>1678354972181</created>
@@ -401,14 +401,20 @@
       <option name="project" value="LOCAL" />
       <updated>1683189480574</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="animations My">
+      <created>1683219359477</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1683219359477</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Home And About Css Add" />
     <MESSAGE value="Assigment" />
     <MESSAGE value="Eduction" />
     <MESSAGE value="Eduction data" />
@@ -433,6 +439,7 @@
     <MESSAGE value="Transitions" />
     <MESSAGE value="fix test 4" />
     <MESSAGE value="bubbles animations" />
-    <option name="LAST_COMMIT_MESSAGE" value="bubbles animations" />
+    <MESSAGE value="animations My" />
+    <option name="LAST_COMMIT_MESSAGE" value="animations My" />
   </component>
 </project>
