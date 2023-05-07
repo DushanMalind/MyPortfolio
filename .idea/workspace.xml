@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/CaseFive/AS5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/img/A.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/img/B.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/img/C.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/img/D.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/img/E.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/Dushan.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/Dushan.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +150,9 @@
       <workItem from="1683122868744" duration="6268000" />
       <workItem from="1683131748749" duration="161000" />
       <workItem from="1683178040459" duration="12983000" />
-      <workItem from="1683365821393" duration="22832000" />
+      <workItem from="1683365821393" duration="25154000" />
+      <workItem from="1683393496236" duration="40000" />
+      <workItem from="1683442523386" duration="3664000" />
     </task>
     <task id="LOCAL-00001" summary="video audio">
       <created>1678354972181</created>
@@ -435,14 +434,20 @@
       <option name="project" value="LOCAL" />
       <updated>1683380356476</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Transitions AS5">
+      <created>1683390886359</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1683390886359</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="AS2" />
     <MESSAGE value="AS2 complete" />
     <MESSAGE value="AS3 complete" />
     <MESSAGE value="AS4 complete" />
@@ -467,6 +472,7 @@
     <MESSAGE value="Transitions AS2" />
     <MESSAGE value="Transitions AS3" />
     <MESSAGE value="Transitions AS4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Transitions AS4" />
+    <MESSAGE value="Transitions AS5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Transitions AS5" />
   </component>
 </project>
