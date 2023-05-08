@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/CaseSix/AS6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/CaseSix/CarAnimation/car.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/CaseSix/CarAnimation/city.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/CaseSix/CarAnimation/road.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/CaseSix/CarAnimation/sky.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/CaseSix/CarAnimation/wheel.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -161,7 +155,7 @@
       <workItem from="1683442523386" duration="4695000" />
       <workItem from="1683529416763" duration="4581000" />
       <workItem from="1683538519791" duration="1440000" />
-      <workItem from="1683549012657" duration="2478000" />
+      <workItem from="1683549012657" duration="3133000" />
     </task>
     <task id="LOCAL-00001" summary="video audio">
       <created>1678354972181</created>
@@ -457,14 +451,20 @@
       <option name="project" value="LOCAL" />
       <updated>1683446393707</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Experience Other Add">
+      <created>1683551861937</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1683551861937</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="AS3 complete" />
     <MESSAGE value="AS4 complete" />
     <MESSAGE value="complete" />
     <MESSAGE value="complete color" />
@@ -489,6 +489,7 @@
     <MESSAGE value="Transitions AS4" />
     <MESSAGE value="Transitions AS5" />
     <MESSAGE value="animates" />
-    <option name="LAST_COMMIT_MESSAGE" value="animates" />
+    <MESSAGE value="Experience Other Add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Experience Other Add" />
   </component>
 </project>
