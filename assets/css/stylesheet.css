@@ -1042,7 +1042,8 @@ body .photo header .back{
 {
     width: 100%;
     display: block;
-    transition: all 0.4s ease;
+    transition: all 3s ease;
+    animation: animatesd 5s linear infinite;
 }
 
 .portfolio .portfolio-item-inner .portfolio-img img:hover
@@ -1050,6 +1051,21 @@ body .photo header .back{
     transform: scale(1.05);
 
 }
+
+@keyframes animatesd {
+
+    100% {
+        transform: rotate(360deg);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    25% {
+        transform: translateX(-10px);
+    }
+
+}
+
 
 /*Contact*/
 
