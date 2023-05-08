@@ -484,7 +484,7 @@ h3.hello span
 
 body .photo header
 {
-    box-shadow: 4px 2px 4px 0px #3C79F5;
+    box-shadow: 4px 2px 4px 0px #000000;
     background: var(--skin-color);
     position: fixed;
     width: 100%;
@@ -495,25 +495,45 @@ body .photo header
     background-position: center;
 }
 
-body .photo header img
+/*body .photo header img
 {
     top: 5px;
     left: 10px;
     width: 100px;
     position: relative;
     display: inline;
+
+}*/
+
+body .photo header .front{
+    top: 5px;
+    left: 10px;
+    right: 0;
+    width: 100px;
+    position: relative;
     animation: animates 10s linear infinite;
 }
 
+body .photo header .back{
+    top: 5px;
+    right: 0px;
+    left: 77%;
+    width: 100px;
+    position: relative;
+    animation: animates2 10s linear infinite;
+}
+
 @keyframes animates {
-    0% {
-        left: 0;
-    }
-    20% {
-        left: 0;
-    }
+
     100% {
-        left: -100%;
+        transform: translateX(1500px);
+    }
+}
+
+@keyframes animates2 {
+
+    100% {
+        transform: translateX(-1600px);
     }
 }
 

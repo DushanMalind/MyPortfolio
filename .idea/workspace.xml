@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/CaseSix/AS6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/CaseSix/CarAnimation/car.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/CaseSix/CarAnimation/city.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/CaseSix/CarAnimation/road.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/CaseSix/CarAnimation/sky.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Transitions/CaseSix/CarAnimation/wheel.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/Dushan.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/Dushan.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -42,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignments/Transitions/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignments/Transitions/CaseSix/CarAnimation" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -51,17 +56,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Transitions\CaseSix\CarAnimation" />
+      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Transitions\img" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\img" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Css" />
-      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Transitions\CaseSix" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Transitions\CaseOne" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\css" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\video" />
-      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assuts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -152,7 +158,10 @@
       <workItem from="1683178040459" duration="12983000" />
       <workItem from="1683365821393" duration="25154000" />
       <workItem from="1683393496236" duration="40000" />
-      <workItem from="1683442523386" duration="3664000" />
+      <workItem from="1683442523386" duration="4695000" />
+      <workItem from="1683529416763" duration="4581000" />
+      <workItem from="1683538519791" duration="1440000" />
+      <workItem from="1683549012657" duration="2478000" />
     </task>
     <task id="LOCAL-00001" summary="video audio">
       <created>1678354972181</created>
@@ -441,14 +450,20 @@
       <option name="project" value="LOCAL" />
       <updated>1683390886359</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="animates">
+      <created>1683446393707</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1683446393707</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="AS2 complete" />
     <MESSAGE value="AS3 complete" />
     <MESSAGE value="AS4 complete" />
     <MESSAGE value="complete" />
@@ -473,6 +488,7 @@
     <MESSAGE value="Transitions AS3" />
     <MESSAGE value="Transitions AS4" />
     <MESSAGE value="Transitions AS5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Transitions AS5" />
+    <MESSAGE value="animates" />
+    <option name="LAST_COMMIT_MESSAGE" value="animates" />
   </component>
 </project>
