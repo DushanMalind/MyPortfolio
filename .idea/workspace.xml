@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Transitions/CaseFour/AS4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Transitions/CaseFour/AS4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -157,7 +155,7 @@
       <workItem from="1683529416763" duration="4581000" />
       <workItem from="1683538519791" duration="1440000" />
       <workItem from="1683549012657" duration="5692000" />
-      <workItem from="1683632985655" duration="3561000" />
+      <workItem from="1683632985655" duration="7504000" />
     </task>
     <task id="LOCAL-00001" summary="video audio">
       <created>1678354972181</created>
@@ -474,14 +472,20 @@
       <option name="project" value="LOCAL" />
       <updated>1683553716612</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="test">
+      <created>1683636856372</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1683636856372</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="complete color" />
     <MESSAGE value="ok" />
     <MESSAGE value="Eduction ok" />
     <MESSAGE value="Project ok" />
@@ -506,6 +510,7 @@
     <MESSAGE value="Experience Other Add" />
     <MESSAGE value="Experience Assimant" />
     <MESSAGE value="animatesd" />
-    <option name="LAST_COMMIT_MESSAGE" value="animatesd" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
 </project>
