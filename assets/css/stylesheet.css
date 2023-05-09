@@ -756,6 +756,11 @@ body .photo header .back{
     color: var(--text-black-700);
 }
 
+.about .about-content .personal-info .info-item p span a
+{
+    color: var(--skin-color);
+}
+
 .about .about-content .personal-info .buttons
 {
     margin-top: 30px;
@@ -1119,6 +1124,11 @@ body .photo header .back{
     line-height: 25px;
     color: var(--text-black-700);
     font-weight: 400;
+}
+
+.contact .contact-info-item p a
+{
+    color: var(--skin-color);
 }
 
 .contact .contact-form
