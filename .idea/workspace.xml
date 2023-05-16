@@ -2,7 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/Assignments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Transitions/CaseFive/AS5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Transitions/CaseFive/AS5.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +86,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignments/Transitions/CaseSix/CarAnimation" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignments/CSS--Framework/pos" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -49,18 +96,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\CSS--Framework\pos" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Transitions\CaseSix\CarAnimation" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Transitions\img" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\img" />
-      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\CSS--Framework\pos\assets" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Transitions\CaseSix" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Transitions\CaseOne" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\css" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio" />
-      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\video" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -155,7 +202,15 @@
       <workItem from="1683529416763" duration="4581000" />
       <workItem from="1683538519791" duration="1440000" />
       <workItem from="1683549012657" duration="5692000" />
-      <workItem from="1683632985655" duration="7504000" />
+      <workItem from="1683632985655" duration="8861000" />
+      <workItem from="1683722630284" duration="8058000" />
+      <workItem from="1683805986013" duration="337000" />
+      <workItem from="1683813534683" duration="1173000" />
+      <workItem from="1683858255211" duration="11798000" />
+      <workItem from="1683883579397" duration="7000" />
+      <workItem from="1683883611063" duration="20000" />
+      <workItem from="1684207369591" duration="307000" />
+      <workItem from="1684217557425" duration="2282000" />
     </task>
     <task id="LOCAL-00001" summary="video audio">
       <created>1678354972181</created>
@@ -479,14 +534,20 @@
       <option name="project" value="LOCAL" />
       <updated>1683636856372</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="test 1">
+      <created>1683644222801</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1683644222801</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ok" />
     <MESSAGE value="Eduction ok" />
     <MESSAGE value="Project ok" />
     <MESSAGE value="All" />
@@ -511,6 +572,7 @@
     <MESSAGE value="Experience Assimant" />
     <MESSAGE value="animatesd" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="test 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 1" />
   </component>
 </project>
