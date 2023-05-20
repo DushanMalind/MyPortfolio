@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/item.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/orderDeatils.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/placeOrder.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/item.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +60,11 @@
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\CSS--Framework\pos" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\CSS--Framework\pos\assets" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Transitions\CaseSix" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Transitions\CaseOne" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\css" />
-      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -168,7 +170,12 @@
       <workItem from="1684217557425" duration="3946000" />
       <workItem from="1684463416596" duration="52000" />
       <workItem from="1684463747005" duration="2111000" />
-      <workItem from="1684502499844" duration="8732000" />
+      <workItem from="1684502499844" duration="10256000" />
+      <workItem from="1684549359645" duration="40000" />
+      <workItem from="1684549628807" duration="51000" />
+      <workItem from="1684549931178" duration="98000" />
+      <workItem from="1684600580937" duration="647000" />
+      <workItem from="1684605473701" duration="4214000" />
     </task>
     <task id="LOCAL-00001" summary="video audio">
       <created>1678354972181</created>
@@ -506,14 +513,20 @@
       <option name="project" value="LOCAL" />
       <updated>1684219973279</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Framework index item">
+      <created>1684513193221</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1684513193221</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Project ok" />
     <MESSAGE value="All" />
     <MESSAGE value="Experience section ok" />
     <MESSAGE value="Contact section ok" />
@@ -538,6 +551,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="test 1" />
     <MESSAGE value="test 2 Assimants" />
-    <option name="LAST_COMMIT_MESSAGE" value="test 2 Assimants" />
+    <MESSAGE value="Framework index item" />
+    <option name="LAST_COMMIT_MESSAGE" value="Framework index item" />
   </component>
 </project>
