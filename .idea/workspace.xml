@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/orderDeatils.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/placeOrder.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../FrameWork/Pos/MyPortfolio" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -53,11 +50,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\img" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\CSS--Framework\pos" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Transitions\CaseSix\CarAnimation" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Transitions\img" />
-      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\CSS--Framework\pos" />
@@ -175,14 +172,7 @@
       <workItem from="1684549628807" duration="51000" />
       <workItem from="1684549931178" duration="98000" />
       <workItem from="1684600580937" duration="647000" />
-      <workItem from="1684605473701" duration="4214000" />
-    </task>
-    <task id="LOCAL-00001" summary="video audio">
-      <created>1678354972181</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1678354972181</updated>
+      <workItem from="1684605473701" duration="5267000" />
     </task>
     <task id="LOCAL-00002" summary="data add">
       <created>1678632466278</created>
@@ -520,14 +510,20 @@
       <option name="project" value="LOCAL" />
       <updated>1684513193221</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Framework placeOrder orderDeatils">
+      <created>1684609871773</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1684609871774</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="All" />
     <MESSAGE value="Experience section ok" />
     <MESSAGE value="Contact section ok" />
     <MESSAGE value="Social media" />
@@ -552,6 +548,7 @@
     <MESSAGE value="test 1" />
     <MESSAGE value="test 2 Assimants" />
     <MESSAGE value="Framework index item" />
-    <option name="LAST_COMMIT_MESSAGE" value="Framework index item" />
+    <MESSAGE value="Framework placeOrder orderDeatils" />
+    <option name="LAST_COMMIT_MESSAGE" value="Framework placeOrder orderDeatils" />
   </component>
 </project>
