@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,14 +172,8 @@
       <workItem from="1684549628807" duration="51000" />
       <workItem from="1684549931178" duration="98000" />
       <workItem from="1684600580937" duration="647000" />
-      <workItem from="1684605473701" duration="5267000" />
-    </task>
-    <task id="LOCAL-00002" summary="data add">
-      <created>1678632466278</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1678632466278</updated>
+      <workItem from="1684605473701" duration="5683000" />
+      <workItem from="1684646799594" duration="2505000" />
     </task>
     <task id="LOCAL-00003" summary="Social Media">
       <created>1678637425493</created>
@@ -517,14 +511,20 @@
       <option name="project" value="LOCAL" />
       <updated>1684609871774</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Framework">
+      <created>1684611050302</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1684611050302</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Experience section ok" />
     <MESSAGE value="Contact section ok" />
     <MESSAGE value="Social media" />
     <MESSAGE value="AS5,AS6" />
@@ -549,6 +549,7 @@
     <MESSAGE value="test 2 Assimants" />
     <MESSAGE value="Framework index item" />
     <MESSAGE value="Framework placeOrder orderDeatils" />
-    <option name="LAST_COMMIT_MESSAGE" value="Framework placeOrder orderDeatils" />
+    <MESSAGE value="Framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Framework" />
   </component>
 </project>
