@@ -2,54 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/javaScript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/orderDeatils.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/orderDeatils.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/placeOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/placeOrder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Js/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/SPA/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,14 +181,7 @@
       <workItem from="1684646799594" duration="2770000" />
       <workItem from="1684679351906" duration="8211000" />
       <workItem from="1684737006430" duration="914000" />
-      <workItem from="1684917529216" duration="4947000" />
-    </task>
-    <task id="LOCAL-00004" summary="Menu css Add">
-      <created>1678780856054</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1678780856054</updated>
+      <workItem from="1684917529216" duration="5591000" />
     </task>
     <task id="LOCAL-00005" summary="loading and Dushan css file add">
       <created>1678892786814</created>
@@ -568,14 +519,20 @@
       <option name="project" value="LOCAL" />
       <updated>1684655172406</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Js SPA">
+      <created>1684922644796</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1684922644797</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Social media" />
     <MESSAGE value="AS5,AS6" />
     <MESSAGE value="fixed" />
     <MESSAGE value="fixed 1 test" />
@@ -600,6 +557,7 @@
     <MESSAGE value="Framework placeOrder orderDeatils" />
     <MESSAGE value="Framework" />
     <MESSAGE value="readme file" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme file" />
+    <MESSAGE value="Js SPA" />
+    <option name="LAST_COMMIT_MESSAGE" value="Js SPA" />
   </component>
 </project>
