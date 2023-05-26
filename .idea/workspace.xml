@@ -3,11 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/orderDeatils.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/orderDeatils.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/placeOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/placeOrder.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignments/Js/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/SPA/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Js/SPA/javaScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/SPA/javaScript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,21 +178,11 @@
       <workItem from="1684646799594" duration="2770000" />
       <workItem from="1684679351906" duration="8211000" />
       <workItem from="1684737006430" duration="914000" />
-      <workItem from="1684917529216" duration="5591000" />
-    </task>
-    <task id="LOCAL-00005" summary="loading and Dushan css file add">
-      <created>1678892786814</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1678892786814</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Tabel and From Add">
-      <created>1678945063893</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1678945063893</updated>
+      <workItem from="1684917529216" duration="7220000" />
+      <workItem from="1685068401793" duration="2084000" />
+      <workItem from="1685071886607" duration="646000" />
+      <workItem from="1685089960250" duration="88000" />
+      <workItem from="1685095759534" duration="2166000" />
     </task>
     <task id="LOCAL-00007" summary="all update">
       <created>1678955020086</created>
@@ -526,15 +513,27 @@
       <option name="project" value="LOCAL" />
       <updated>1684922644797</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Js">
+      <created>1684923154245</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1684923154245</updated>
+    </task>
+    <task id="LOCAL-00055" summary="color">
+      <created>1684923247348</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1684923247348</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="AS5,AS6" />
-    <MESSAGE value="fixed" />
     <MESSAGE value="fixed 1 test" />
     <MESSAGE value="fixed 2 test" />
     <MESSAGE value="fixed 3 test" />
@@ -558,6 +557,8 @@
     <MESSAGE value="Framework" />
     <MESSAGE value="readme file" />
     <MESSAGE value="Js SPA" />
-    <option name="LAST_COMMIT_MESSAGE" value="Js SPA" />
+    <MESSAGE value="Js" />
+    <MESSAGE value="color" />
+    <option name="LAST_COMMIT_MESSAGE" value="color" />
   </component>
 </project>
