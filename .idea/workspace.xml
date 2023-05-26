@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
+    <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="img add 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignments/Js/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/SPA/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignments/Js/SPA/javaScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/SPA/javaScript.js" afterDir="false" />
@@ -183,27 +183,7 @@
       <workItem from="1685071886607" duration="646000" />
       <workItem from="1685089960250" duration="88000" />
       <workItem from="1685095759534" duration="2166000" />
-    </task>
-    <task id="LOCAL-00007" summary="all update">
-      <created>1678955020086</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1678955020086</updated>
-    </task>
-    <task id="LOCAL-00008" summary="all updates">
-      <created>1679037714408</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1679037714408</updated>
-    </task>
-    <task id="LOCAL-00009" summary="all updates 2">
-      <created>1679037855190</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1679037855190</updated>
+      <workItem from="1685106175455" duration="1360000" />
     </task>
     <task id="LOCAL-00010" summary="all ready">
       <created>1679037928726</created>
@@ -527,15 +507,34 @@
       <option name="project" value="LOCAL" />
       <updated>1684923247348</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="img add 1">
+      <created>1685106355284</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1685106355285</updated>
+    </task>
+    <task id="LOCAL-00057" summary="img add 1">
+      <created>1685106408995</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1685106408995</updated>
+    </task>
+    <task id="LOCAL-00058" summary="img add 2">
+      <created>1685106424410</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1685106424410</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed 1 test" />
-    <MESSAGE value="fixed 2 test" />
     <MESSAGE value="fixed 3 test" />
     <MESSAGE value="Transitions" />
     <MESSAGE value="fix test 4" />
@@ -559,6 +558,8 @@
     <MESSAGE value="Js SPA" />
     <MESSAGE value="Js" />
     <MESSAGE value="color" />
-    <option name="LAST_COMMIT_MESSAGE" value="color" />
+    <MESSAGE value="img add 1" />
+    <MESSAGE value="img add 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="img add 2" />
   </component>
 </project>
