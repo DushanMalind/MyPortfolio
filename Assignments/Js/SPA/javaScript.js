@@ -18,7 +18,7 @@ document.getElementById("save").addEventListener("click",function (){
     let contact=document.getElementById("contact").value;
 
 
-   let a= document.createElement("td").append(id);
+   let a=document.createElement("td").append(id);
    let b=document.createElement("td").append(name);
    let c=document.createElement("td").append(address);
    let d=document.createElement("td").append(contact);

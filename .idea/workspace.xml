@@ -181,35 +181,7 @@
       <workItem from="1685071886607" duration="646000" />
       <workItem from="1685089960250" duration="88000" />
       <workItem from="1685095759534" duration="2166000" />
-      <workItem from="1685106175455" duration="1729000" />
-    </task>
-    <task id="LOCAL-00012" summary="Assigment">
-      <created>1680618423009</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1680618423009</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Assigment">
-      <created>1680619098074</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1680619098074</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Eduction">
-      <created>1681265724323</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1681265724323</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Eduction data">
-      <created>1681270110479</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1681270110479</updated>
+      <workItem from="1685106175455" duration="2031000" />
     </task>
     <task id="LOCAL-00016" summary="AS2">
       <created>1681979339117</created>
@@ -526,17 +498,41 @@
       <option name="project" value="LOCAL" />
       <updated>1685107851255</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="img add 4">
+      <created>1685107968052</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1685107968052</updated>
+    </task>
+    <task id="LOCAL-00062" summary="img add 5">
+      <created>1685107982676</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1685107982676</updated>
+    </task>
+    <task id="LOCAL-00063" summary="img add 6">
+      <created>1685108069914</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1685108069914</updated>
+    </task>
+    <task id="LOCAL-00064" summary="img add 7">
+      <created>1685108185645</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1685108185645</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fix test 4" />
-    <MESSAGE value="bubbles animations" />
-    <MESSAGE value="animations My" />
-    <MESSAGE value="Transitions AS2" />
     <MESSAGE value="Transitions AS3" />
     <MESSAGE value="Transitions AS4" />
     <MESSAGE value="Transitions AS5" />
@@ -558,6 +554,10 @@
     <MESSAGE value="img add 2" />
     <MESSAGE value="img add" />
     <MESSAGE value="img add 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="img add 3" />
+    <MESSAGE value="img add 4" />
+    <MESSAGE value="img add 5" />
+    <MESSAGE value="img add 6" />
+    <MESSAGE value="img add 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="img add 7" />
   </component>
 </project>
