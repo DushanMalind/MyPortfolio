@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="img add 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/Assignments/Js/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/SPA/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/SPA/javaScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/SPA/javaScript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
