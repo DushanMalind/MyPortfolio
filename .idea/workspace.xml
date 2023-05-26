@@ -183,21 +183,7 @@
       <workItem from="1685071886607" duration="646000" />
       <workItem from="1685089960250" duration="88000" />
       <workItem from="1685095759534" duration="2166000" />
-      <workItem from="1685106175455" duration="1360000" />
-    </task>
-    <task id="LOCAL-00010" summary="all ready">
-      <created>1679037928726</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1679037928726</updated>
-    </task>
-    <task id="LOCAL-00011" summary="Home And About Css Add">
-      <created>1679575731170</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1679575731170</updated>
+      <workItem from="1685106175455" duration="1729000" />
     </task>
     <task id="LOCAL-00012" summary="Assigment">
       <created>1680618423009</created>
@@ -528,15 +514,27 @@
       <option name="project" value="LOCAL" />
       <updated>1685106424410</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="img add">
+      <created>1685107825156</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1685107825156</updated>
+    </task>
+    <task id="LOCAL-00060" summary="img add 3">
+      <created>1685107851255</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1685107851255</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="fixed 3 test" />
-    <MESSAGE value="Transitions" />
     <MESSAGE value="fix test 4" />
     <MESSAGE value="bubbles animations" />
     <MESSAGE value="animations My" />
@@ -560,6 +558,8 @@
     <MESSAGE value="color" />
     <MESSAGE value="img add 1" />
     <MESSAGE value="img add 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="img add 2" />
+    <MESSAGE value="img add" />
+    <MESSAGE value="img add 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="img add 3" />
   </component>
 </project>
