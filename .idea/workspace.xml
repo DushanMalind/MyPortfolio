@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/javaScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignments/Js/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/SPA/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Js/SPA/javaScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/SPA/javaScript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignments/Js/SPA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignments/CSS--Framework/pos" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -50,9 +54,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\CSS--Framework\pos" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\SPA" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\img" />
-      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\CSS--Framework\pos" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Transitions\CaseSix\CarAnimation" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio" />
     </key>
@@ -181,21 +185,11 @@
       <workItem from="1685071886607" duration="646000" />
       <workItem from="1685089960250" duration="88000" />
       <workItem from="1685095759534" duration="2166000" />
-      <workItem from="1685106175455" duration="2031000" />
-    </task>
-    <task id="LOCAL-00016" summary="AS2">
-      <created>1681979339117</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1681979339117</updated>
-    </task>
-    <task id="LOCAL-00017" summary="AS2 complete">
-      <created>1681982518051</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1681982518051</updated>
+      <workItem from="1685106175455" duration="11159000" />
+      <workItem from="1685120422238" duration="726000" />
+      <workItem from="1685170480589" duration="682000" />
+      <workItem from="1685354918861" duration="272000" />
+      <workItem from="1685356571769" duration="53000" />
     </task>
     <task id="LOCAL-00018" summary="AS3 complete">
       <created>1682057707756</created>
@@ -526,15 +520,27 @@
       <option name="project" value="LOCAL" />
       <updated>1685108185645</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="img add 8">
+      <created>1685108344495</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1685108344495</updated>
+    </task>
+    <task id="LOCAL-00066" summary="img add 9">
+      <created>1685108455936</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1685108455937</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Transitions AS3" />
-    <MESSAGE value="Transitions AS4" />
     <MESSAGE value="Transitions AS5" />
     <MESSAGE value="animates" />
     <MESSAGE value="Experience Other Add" />
@@ -558,6 +564,8 @@
     <MESSAGE value="img add 5" />
     <MESSAGE value="img add 6" />
     <MESSAGE value="img add 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="img add 7" />
+    <MESSAGE value="img add 8" />
+    <MESSAGE value="img add 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="img add 9" />
   </component>
 </project>

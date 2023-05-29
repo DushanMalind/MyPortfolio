@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Shop System</title>
 
-    <link rel="stylesheet" href="javaScript.js">
+
     <link rel="stylesheet" href="../../CSS--Framework/pos/assets/css/bootstrap.css">
-
-
+    <script src="../../CSS--Framework/pos/assets/js/bootstrap.js"></script>
 
 
 </head>
@@ -84,8 +83,8 @@
                             </div>
 
 
-                            <button id="save" type="submit" style="width: 150px" class="btn btn-warning m-auto m-lg-2 justify-content-center" >Save</button>
-                            <button type="submit" style="width: 150px" class="btn btn-info m-auto m-lg-2">Update</button>
+                            <button id="save" type="button" style="width: 150px" class="btn btn-warning m-auto m-lg-2 justify-content-center" >Save</button>
+                            <button type="button" style="width: 150px" class="btn btn-info m-auto m-lg-2">Update</button>
                         </form>
                     </div>
                 </div>
@@ -107,11 +106,11 @@
                             <th style="background-color: #0077b6" scope="col">Name</th>
                             <th style="background-color: #0077b6" scope="col">Address</th>
                             <th style="background-color: #0077b6" scope="col">Contact</th>
-                            <!--<th style="background-color: #0077b6" scope="col">Action</th>-->
+                            <th style="background-color: #0077b6" scope="col">Action</th>
                         </tr>
                         </thead>
-                        <tbody id="tbodys">
-                     <!--   <tr>
+                        <tbody id="tblCustomer">
+                        <tr>
                             <th scope="row">C001</th>
                             <td>Dushan</td>
                             <td>Galle</td>
@@ -120,7 +119,7 @@
                                 <button type="button" class="btn btn-primary">Edit</button>
                                 <button type="button" class="btn btn-danger">Delete</button>
                             </td>
-                        </tr>-->
+                        </tr>
 
 
                         </tbody>
@@ -460,7 +459,35 @@
    alert("Are you sure")
 </script>-->
 
-<script src="assets/js/bootstrap.js"></script>
-<script src="../../CSS--Framework/pos/assets/js/bootstrap.js"></script>
+<script src="javaScript.js"></script>
+<!--<script>
+    document.getElementById("customers").addEventListener("click",function (){
+        let id=document.getElementById("txtCustomerID").value;
+        let name=document.getElementById("txtCustomerName").value;
+        let address=document.getElementById("txtCustomerAddress").value;
+        let contact=document.getElementById("txtCustomerContact").value;
+
+
+        let txtId= document.createElement("td");
+        let b=document.createElement("td");
+        let c=document.createElement("td");
+        let d=document.createElement("td");
+
+        txtId.appendChild(id);
+        b.appendChild(name);
+        c.appendChild(address);
+        d.appendChild(contact);
+
+        let g=document.createElement("tr");
+        g.appendChild(txtId);
+        g.appendChild(b);
+        g.appendChild(c);
+        g.appendChild(d);
+
+        document.getElementById("tblCustomer").appendChild(g);
+
+    });
+
+</script>-->
 </body>
 </html>

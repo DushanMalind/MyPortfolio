@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Shop System</title>
     <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <script src="assets/js/bootstrap.js"></script>
+
 
 </head>
 <style>
@@ -58,24 +60,24 @@
                         <h2 class="text-danger text-center m-lg-100 pt-5  text-primary" >Customer Details</h2>
                         <form class="row p-4 m-0 m-lg-2  justify-content-center">
                             <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label " id="cids">ID</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <label for="txtCustomerID" class="form-label " id="cids">ID</label>
+                                <input type="text"  class="form-control" id="txtCustomerID" aria-describedby="emailHelp">
                             </div>
                             <div class="mb-3">
-                                <label for="name" class="form-label">Name</label>
-                                <input type="password" class="form-control" id="name">
+                                <label for="txtCustomerName" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="txtCustomerName">
                             </div>
                             <div class="mb-3">
-                                <label for="address" class="form-label">Address</label>
-                                <input type="password" class="form-control" id="address">
+                                <label for="txtCustomerAddress" class="form-label">Address</label>
+                                <input type="text" class="form-control" id="txtCustomerAddress">
                             </div>
                             <div class="mb-3">
-                                <label for="contact" class="form-label">Contact</label>
-                                <input type="password" class="form-control" id="contact">
+                                <label for="txtCustomerContact" class="form-label">Contact</label>
+                                <input type="text" class="form-control" id="txtCustomerContact">
                             </div>
 
 
-                            <button type="submit" style="width: 150px" class="btn btn-warning m-auto m-lg-2 justify-content-center" >Save</button>
+                            <button type="button" id="save" style="width: 150px" class="btn btn-warning m-auto m-lg-2 justify-content-center" >Save</button>
                             <button type="submit" style="width: 150px" class="btn btn-info m-auto m-lg-2">Update</button>
                         </form>
                     </div>
@@ -98,12 +100,12 @@
                             <th style="background-color: #0077b6" scope="col">Name</th>
                             <th style="background-color: #0077b6" scope="col">Address</th>
                             <th style="background-color: #0077b6" scope="col">Contact</th>
-                            <th style="background-color: #0077b6" scope="col">Action</th>
+                            <!--<th style="background-color: #0077b6" scope="col">Action</th>-->
                         </tr>
                         </thead>
-                        <tbody>
-                        <tr>
-                            <th scope="row">C001</th>
+                        <tbody id="tblCustomer">
+
+                            <!--<th scope="row">C001</th>
                             <td>Dushan</td>
                             <td>Galle</td>
                             <td>077125653</td>
@@ -111,7 +113,7 @@
                                 <button type="button" class="btn btn-primary">Edit</button>
                                 <button type="button" class="btn btn-danger">Delete</button>
                             </td>
-                        </tr>
+-->
 
 
                         </tbody>
@@ -126,14 +128,44 @@
 </div>
 
 </div>
-<script type="text/javascript">
+<!--<script type="text/javascript">
     window.addEventListener('beforeunload',()=>{
         event.preventDefault();
         event.returnValue="";
     })
     alert("Are you sure")
+</script>-->
+
+<!--<link rel="stylesheet" href="javaScript.js">-->
+<script>
+    document.getElementById("save").addEventListener("click",function (){
+        let id=document.getElementById("txtCustomerID").value;
+        let name=document.getElementById("txtCustomerName").value;
+        let address=document.getElementById("txtCustomerAddress").value;
+        let contact=document.getElementById("txtCustomerContact").value;
+
+
+        let txtId= document.createElement("td");
+        let b=document.createElement("td");
+        let c=document.createElement("td");
+        let d=document.createElement("td");
+
+        txtId.append(id);
+        b.append(name);
+        c.append(address);
+        d.append(contact);
+
+        let g=document.createElement("tr");
+        g.appendChild(txtId);
+        g.appendChild(b);
+        g.appendChild(c);
+        g.appendChild(d);
+
+        document.getElementById("tblCustomer").appendChild(g);
+
+
+    });
 </script>
 
-<script src="assets/js/bootstrap.js"></script>
 </body>
 </html>
