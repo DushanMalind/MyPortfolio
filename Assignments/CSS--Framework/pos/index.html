@@ -6,6 +6,7 @@
     <title>Shop System</title>
     <link rel="stylesheet" href="assets/css/bootstrap.css">
     <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/jquery-3.6.1.min.js"></script>
 
 
 </head>
@@ -78,7 +79,9 @@
 
 
                             <button type="button" id="save" style="width: 150px" class="btn btn-warning m-auto m-lg-2 justify-content-center" >Save</button>
-                            <button type="submit" style="width: 150px" class="btn btn-info m-auto m-lg-2">Update</button>
+                            <button type="button" id="btnUpdate" style="width: 150px" class="btn btn-info m-auto m-lg-2">Update</button>
+                            <button type="button" id="btnDelete" style="width: 150px" class="btn btn-danger m-auto m-lg-2">Delete</button>
+
                         </form>
                     </div>
                 </div>
@@ -100,7 +103,7 @@
                             <th style="background-color: #0077b6" scope="col">Name</th>
                             <th style="background-color: #0077b6" scope="col">Address</th>
                             <th style="background-color: #0077b6" scope="col">Contact</th>
-                            <!--<th style="background-color: #0077b6" scope="col">Action</th>-->
+                            <th style="background-color: #0077b6" scope="col">Action</th>
                         </tr>
                         </thead>
                         <tbody id="tblCustomer">
@@ -138,7 +141,7 @@
 
 <!--<link rel="stylesheet" href="javaScript.js">-->
 <script>
-    document.getElementById("save").addEventListener("click",function (){
+    /*document.getElementById("save").addEventListener("click",function (){
         let id=document.getElementById("txtCustomerID").value;
         let name=document.getElementById("txtCustomerName").value;
         let address=document.getElementById("txtCustomerAddress").value;
@@ -164,7 +167,145 @@
         document.getElementById("tblCustomer").appendChild(g);
 
 
+    });*/
+
+    var customers=[];
+
+    $("#save").click(function (){
+        let cusId=$("#txtCustomerID").val();
+        let cusName=$("#txtCustomerName").val();
+        let cusAddress=$("#txtCustomerAddress").val();
+        let cusContact=$("#txtCustomerContact").val();
+
+        var customerObject={
+            id:cusId,
+            name:cusName,
+            address:cusAddress,
+            contact:cusContact
+
+        }
+
+        customers.push(customerObject);
+
+        loadAllCustomers();
+
+        bindRowClickEvents();
     });
+
+
+    function bindRowClickEvents() {
+        $("#tblCustomer>tr").click(function () {
+            let id = $(this).children(":eq(0)").text();
+            let name = $(this).children(":eq(1)").text();
+            let address = $(this).children(":eq(2)").text();
+            let contact = $(this).children(":eq(3)").text();
+
+            $('#txtCustomerID').val(id);
+            $('#txtCustomerName').val(name);
+            $('#txtCustomerAddress').val(address);
+            $('#txtCustomerContact').val(contact);
+
+        });
+    }
+
+
+    function loadAllCustomers() {
+
+        $("#tblCustomer").empty();
+
+        for (var customer of customers) {
+            var row = `<tr><td>${customer.id}</td><td>${customer.name}</td><td>${customer.address}</td><td>${customer.contact}</td></tr>`;
+
+            $("#tblCustomer").append(row);
+        }
+    }
+
+
+    $("#btnDelete").click(function (){
+
+       let deleteId=$("#txtCustomerID").val();
+
+       let option=confirm("Do you Sure?"+deleteId);
+        if (option){
+            if (deleteCustomer(deleteId)) {
+                alert("Customer Successfully Deleted..");
+                setTextfieldValues("", "", "", "");
+            } else {
+                alert("No such customer to delete");
+            }
+        }
+    });
+
+    $("#btnUpdate").click(function () {
+        let customerID = $("#txtCustomerID").val();
+        let response = updateCustomer(customerID);
+        if (response) {
+            alert("Customer Updated Successfully");
+            setTextfieldValues("", "", "", "");
+        } else {
+            alert("Update Failed..!");
+
+        }
+    });
+
+
+    $("#txtCustomerID").on('keyup', function (event) {
+        if (event.code == "Enter") {
+            let typedId = $("#txtCustomerID").val();
+            let customer = searchCustomer(typedId);
+            if (customer != null) {
+                setTextfieldValues(customer.id, customer.name, customer.address, customer.contact);
+            } else {
+                alert("There is no cusotmer available for that " + typedId);
+                setTextfieldValues("", "", "", "");
+            }
+        }
+    });
+
+    function deleteCustomer(customerID) {
+        let customer = searchCustomer(customerID);
+        if (customer != null) {
+            let indexNumber = customers.indexOf(customer);
+            customers.splice(indexNumber, 1);
+            loadAllCustomers();
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    function setTextfieldValues(id, name, address, contact) {
+        $("#txtCustomerID").val(id);
+        $("#txtCustomerName").val(name);
+        $("#txtCustomerAddress").val(address);
+        $("#txtCustomerContact").val(contact);
+    }
+
+
+    function searchCustomer(cusID) {
+        for (let customer of customers) {
+            if (customer.id == cusID) {
+                return customer;
+            }
+        }
+        return null;
+    }
+
+    function updateCustomer(customerID) {
+        let customer = searchCustomer(customerID);
+        if (customer != null) {
+            customer.id = $("#txtCustomerID").val();
+            customer.name = $("#txtCustomerName").val();
+            customer.address = $("#txtCustomerAddress").val();
+            customer.contact = $("#txtCustomerContact").val();
+            loadAllCustomers();
+            return true;
+        } else {
+            return false;
+        }
+
+    }
+
 </script>
 
 </body>

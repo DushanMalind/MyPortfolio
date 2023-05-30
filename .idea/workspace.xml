@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/javaScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/js/jquery-3.6.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/SPA/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/SPA/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/SPA/javaScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/SPA/javaScript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignments/CSS--Framework/pos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -54,11 +52,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\CSS--Framework\pos\assets\js" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\CSS--Framework\pos" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\SPA" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\img" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Transitions\CaseSix\CarAnimation" />
-      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\CSS--Framework\pos" />
@@ -190,13 +188,8 @@
       <workItem from="1685170480589" duration="682000" />
       <workItem from="1685354918861" duration="272000" />
       <workItem from="1685356571769" duration="53000" />
-    </task>
-    <task id="LOCAL-00018" summary="AS3 complete">
-      <created>1682057707756</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1682057707756</updated>
+      <workItem from="1685357145118" duration="5719000" />
+      <workItem from="1685472685274" duration="3005000" />
     </task>
     <task id="LOCAL-00019" summary="AS4 complete">
       <created>1682062165794</created>
@@ -534,14 +527,20 @@
       <option name="project" value="LOCAL" />
       <updated>1685108455937</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Table Data Add pos">
+      <created>1685357204353</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1685357204356</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Transitions AS5" />
     <MESSAGE value="animates" />
     <MESSAGE value="Experience Other Add" />
     <MESSAGE value="Experience Assimant" />
@@ -566,6 +565,7 @@
     <MESSAGE value="img add 7" />
     <MESSAGE value="img add 8" />
     <MESSAGE value="img add 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="img add 9" />
+    <MESSAGE value="Table Data Add pos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Table Data Add pos" />
   </component>
 </project>
