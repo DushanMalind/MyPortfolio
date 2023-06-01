@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>QUE</title>
+</head>
+<style>
+    body{
+        background-color: #504e70;
+    }
+    h1{
+
+    }
+    section{
+        width: 1000px;
+        height: 320px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        display: flex;
+        align-items: center;
+    }
+    section>div{
+        height: 100px;
+        flex-grow: 1;
+        border: 1px solid black;
+
+    }
+    section>div:nth-child(1){
+
+
+    }
+    section>div:first-child{
+        align-self: start;
+    }
+    section>div:last-child{
+        align-self: end;
+    }
+</style>
+<body>
+
+<h1>Java Script Queue</h1>
+
+<section>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+</section>
+
+
+<script>
+    let colors=["red","Yellow","green","Blue","deeppink","orange"];
+
+    let divArray=document.querySelector("section").children;
+
+   // colors.push("pink"); Arraya ake last index aka aluthen value akka danna puluwan.
+   // colors.pop();
+   // colors.shift();
+   // colors.unshift();
+   // colors.slice();
+   // colors.splice();
+
+setInterval(function () {
+    for (let i = 0; i < divArray.length; i++) {
+        divArray[i].style.background=colors[i];
+    }
+    let  last=colors.pop();
+
+    colors.unshift(last)
+},1000)
+
+</script>
+
+</body>
+</html>
