@@ -2,55 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/assets/js/jquery-3.6.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/QUE/index3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/js/jquery-3.7.0.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/js/jquery-3.6.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Js/QUE/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/QUE/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Js/QUE/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Js/QUE/index3.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignments/Js/QUE" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -98,8 +56,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\QUE" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\CSS--Framework\pos\assets\js" />
+      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\QUE" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\CSS--Framework\pos" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\SPA" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\img" />
@@ -237,14 +195,11 @@
       <workItem from="1685357145118" duration="5719000" />
       <workItem from="1685472685274" duration="4070000" />
       <workItem from="1685586194165" duration="2272000" />
-      <workItem from="1685590568741" duration="5765000" />
-    </task>
-    <task id="LOCAL-00020" summary="complete">
-      <created>1682355468376</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1682355468376</updated>
+      <workItem from="1685590568741" duration="8541000" />
+      <workItem from="1685601762284" duration="4396000" />
+      <workItem from="1685626445287" duration="87000" />
+      <workItem from="1685631648666" duration="644000" />
+      <workItem from="1685784419498" duration="1684000" />
     </task>
     <task id="LOCAL-00021" summary="complete color">
       <created>1682355806458</created>
@@ -582,14 +537,20 @@
       <option name="project" value="LOCAL" />
       <updated>1685475954029</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="Js QUE">
+      <created>1685597536979</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1685597536979</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Experience Other Add" />
     <MESSAGE value="Experience Assimant" />
     <MESSAGE value="animatesd" />
     <MESSAGE value="test" />
@@ -614,6 +575,7 @@
     <MESSAGE value="img add 9" />
     <MESSAGE value="Table Data Add pos" />
     <MESSAGE value="Table Update Add delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Table Update Add delete" />
+    <MESSAGE value="Js QUE" />
+    <option name="LAST_COMMIT_MESSAGE" value="Js QUE" />
   </component>
 </project>

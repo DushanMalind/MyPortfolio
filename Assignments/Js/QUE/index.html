@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>QUE</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
 </head>
 <style>
     body{
@@ -40,10 +42,42 @@
     section>div:last-child{
         align-self: end;
     }
+
+    .text{
+        left: 0;
+        right: 0;
+        margin-top: 150px;
+        text-align: center;
+    }
+
+
+    #btn{
+        position: absolute;
+        left: 0;
+        right: 50px;
+        top: 300px;
+        bottom: 0;
+        margin: auto;
+        width: 58px;
+        height: 38px;
+
+    }
+    #btn1{
+        position: absolute;
+        left: 150px;
+        right: 0;
+        top: 300px;
+        bottom: 0;
+        margin: auto;
+        width: 58px;
+        height: 38px;
+
+    }
+
 </style>
 <body>
 
-<h1>Java Script Queue</h1>
+<h1 class="text">Java Script Queue</h1>
 
 <section>
     <div></div>
@@ -54,12 +88,16 @@
     <div></div>
 
 </section>
+<button  class="btn btn-danger" id="btn">Start</button>
+<button class="btn btn-primary" id="btn1">Stop</button>
 
-
+<script src="assets/js/jquery-3.6.1.min.js"></script>
 <script>
     let colors=["red","Yellow","green","Blue","deeppink","orange"];
 
     let divArray=document.querySelector("section").children;
+
+    let out=0;
 
    // colors.push("pink"); Arraya ake last index aka aluthen value akka danna puluwan.
    // colors.pop();
@@ -68,15 +106,23 @@
    // colors.slice();
    // colors.splice();
 
-setInterval(function () {
-    for (let i = 0; i < divArray.length; i++) {
-        divArray[i].style.background=colors[i];
-    }
-    let  last=colors.pop();
 
-    colors.unshift(last)
-},1000)
 
+    $("#btn").click(function (){
+        clearInterval(out);
+       out=setInterval(function () {
+            for (let i = 0; i < divArray.length; i++) {
+                divArray[i].style.background=colors[i];
+            }
+            let  last=colors.pop();
+
+            colors.unshift(last)
+        },600)
+    });
+
+    $("#btn1").click(function (){
+        clearInterval(out);
+    });
 </script>
 
 </body>
