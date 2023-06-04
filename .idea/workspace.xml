@@ -2,13 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/js/jquery-3.7.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/audio/Knight.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/js/jquery-3.6.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/KINGHT/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/javaScript1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/js/jquery-3.6.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/CSS--Framework/pos/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignments/Js/QUE/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/QUE/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/QUE/index2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/QUE/index3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +91,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignments/CSS--Framework/pos/assets/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignments/Js/KINGHT/assets/audio" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -56,18 +100,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\KINGHT\assets\audio" />
+      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\KINGHT\assets" />
+      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\img" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\CSS--Framework\pos\assets\js" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\QUE" />
-      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\CSS--Framework\pos" />
-      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\SPA" />
-      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\KINGHT\assets\audio" />
+      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\CSS--Framework\pos" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\CSS--Framework\pos\assets" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Transitions\CaseSix" />
-      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Transitions\CaseOne" />
-      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -199,14 +243,8 @@
       <workItem from="1685601762284" duration="4396000" />
       <workItem from="1685626445287" duration="87000" />
       <workItem from="1685631648666" duration="644000" />
-      <workItem from="1685784419498" duration="1684000" />
-    </task>
-    <task id="LOCAL-00021" summary="complete color">
-      <created>1682355806458</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1682355806458</updated>
+      <workItem from="1685784419498" duration="4738000" />
+      <workItem from="1685877903801" duration="12519000" />
     </task>
     <task id="LOCAL-00022" summary="ok">
       <created>1682358059479</created>
@@ -544,14 +582,20 @@
       <option name="project" value="LOCAL" />
       <updated>1685597536979</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Js QUE start and stop button">
+      <created>1685786303176</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1685786303177</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Experience Assimant" />
     <MESSAGE value="animatesd" />
     <MESSAGE value="test" />
     <MESSAGE value="test 1" />
@@ -576,6 +620,7 @@
     <MESSAGE value="Table Data Add pos" />
     <MESSAGE value="Table Update Add delete" />
     <MESSAGE value="Js QUE" />
-    <option name="LAST_COMMIT_MESSAGE" value="Js QUE" />
+    <MESSAGE value="Js QUE start and stop button" />
+    <option name="LAST_COMMIT_MESSAGE" value="Js QUE start and stop button" />
   </component>
 </project>
