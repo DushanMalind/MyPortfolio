@@ -1,58 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/CAL/assets/js/text.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/javaScript.js" afterDir="false" />
+    <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="InMemory-POS System">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/CAL/assets/css/Stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/CAL/assets/css/Stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/CAL/assets/js/cal.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/CAL/assets/js/cal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/CAL/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/CAL/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,14 +199,7 @@
       <workItem from="1685969124296" duration="16662000" />
       <workItem from="1686107029137" duration="416000" />
       <workItem from="1686107702494" duration="1300000" />
-      <workItem from="1686116569288" duration="2475000" />
-    </task>
-    <task id="LOCAL-00024" summary="Project ok">
-      <created>1682413263471</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1682413263471</updated>
+      <workItem from="1686116569288" duration="5992000" />
     </task>
     <task id="LOCAL-00025" summary="All">
       <created>1682474072399</created>
@@ -593,14 +537,20 @@
       <option name="project" value="LOCAL" />
       <updated>1685973732135</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="InMemory-POS System">
+      <created>1686119292551</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1686119292552</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="test 1" />
     <MESSAGE value="test 2 Assimants" />
     <MESSAGE value="Framework index item" />
     <MESSAGE value="Framework placeOrder orderDeatils" />
@@ -625,6 +575,7 @@
     <MESSAGE value="Js QUE start and stop button" />
     <MESSAGE value="KNIGHT Rider" />
     <MESSAGE value="Cal" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cal" />
+    <MESSAGE value="InMemory-POS System" />
+    <option name="LAST_COMMIT_MESSAGE" value="InMemory-POS System" />
   </component>
 </project>
