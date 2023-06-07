@@ -28,6 +28,7 @@ body{
     border-radius: 4px;
     z-index: 4;
     box-shadow: 0 0 20px rgba( 74, 28, 0.15);
+    text-align: right;
 
 
 }
