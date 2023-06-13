@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/Inmeroy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Knight.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Que.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/cal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/spa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/assets/js/jquery-3.6.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/index1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/SPA/js.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/CAL/assets/css/Stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/CAL/assets/css/Stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignments/Js/SPA/assets/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -57,11 +53,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\SPA\assets\js" />
+      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\SPA" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\img" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\InMemory-POS" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\CAL" />
-      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\KINGHT\assets\audio" />
-      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\KINGHT\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\KINGHT\assets\audio" />
@@ -206,14 +202,11 @@
       <workItem from="1686107029137" duration="416000" />
       <workItem from="1686107702494" duration="1300000" />
       <workItem from="1686116569288" duration="10219000" />
-      <workItem from="1686144660381" duration="2555000" />
-    </task>
-    <task id="LOCAL-00026" summary="Experience section ok">
-      <created>1682580243363</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1682580243363</updated>
+      <workItem from="1686144660381" duration="4411000" />
+      <workItem from="1686222377150" duration="1044000" />
+      <workItem from="1686307037440" duration="4897000" />
+      <workItem from="1686315098854" duration="1559000" />
+      <workItem from="1686403511117" duration="85000" />
     </task>
     <task id="LOCAL-00027" summary="Contact section ok">
       <created>1682585958280</created>
@@ -551,14 +544,20 @@
       <option name="project" value="LOCAL" />
       <updated>1686126637530</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Assignments Js Add">
+      <created>1686153378612</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1686153378613</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Framework index item" />
     <MESSAGE value="Framework placeOrder orderDeatils" />
     <MESSAGE value="Framework" />
     <MESSAGE value="readme file" />
@@ -583,6 +582,7 @@
     <MESSAGE value="Cal" />
     <MESSAGE value="InMemory-POS System" />
     <MESSAGE value="InMemory-POS System task" />
-    <option name="LAST_COMMIT_MESSAGE" value="InMemory-POS System task" />
+    <MESSAGE value="Assignments Js Add" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignments Js Add" />
   </component>
 </project>
