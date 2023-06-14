@@ -91,7 +91,7 @@ $("#save").click(function (){
     customers.push(customerObject);
 
     loadAllCustomers();
-
+    loadAllCustomerId();
     bindRowClickEvents();
 });
 
@@ -195,9 +195,9 @@ function setTextfieldValues(id, name, address, contact) {
 }
 
 
-function searchCustomer(cusID) {
+function searchCustomer(id) {
     for (let customer of customers) {
-        if (customer.id == cusID) {
+        if (customer.id == id) {
             return customer;
         }
     }

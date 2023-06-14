@@ -91,6 +91,7 @@ $("#btnItemSave").click(function (){
     items.push(itemObject);
 
     loadAllItems();
+    loadAllItemId();
 
     bindRowClickEventsItems();
 });

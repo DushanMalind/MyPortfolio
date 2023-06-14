@@ -276,31 +276,31 @@
                             <div class="col">
                                 <div class="input-group">
                                     <span class="input-group-text">Order ID</span>
-                                    <input class="form-control" type="text" placeholder="OD-001" aria-label="Disabled input example" disabled>
+                                    <input class="form-control" type="text" placeholder="OD-001" aria-label="Disabled input example" >
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="input-group">
                                     <span class="input-group-text">Date</span>
-                                    <input class="form-control" type="text" placeholder="2023-05-21" aria-label="Disabled input example" disabled>
+                                    <input class="form-control" type="date" placeholder="2023-05-21" aria-label="Disabled input example" >
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="input-group">
                                     <span class="input-group-text">CustomerID</span>
-                                    <select class="form-select" aria-label="Default select example">
-                                        <option selected>Select ID</option>
-                                        <option value="1">C001</option>
+                                    <select class="form-select" id="customerOrdID" aria-label="Default select example">
+                                        <!--<option selected>Select ID</option>-->
+                                        <!--<option value="1">C001</option>
                                         <option value="2">C002</option>
                                         <option value="3">C003</option>
-                                        <option value="3">C004</option>
+                                        <option value="3">C004</option>-->
                                     </select>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="input-group">
                                     <span class="input-group-text">Customer Name</span>
-                                    <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+                                    <input class="form-control" id="customerNameOrd" type="text" placeholder="Name" aria-label="Disabled input example" disabled>
                                 </div>
                             </div>
 
@@ -321,11 +321,11 @@
                             <div class="col">
                                 <div class="input-group">
                                     <span class="input-group-text">Item ID</span>
-                                    <select class="form-select" aria-label="Default select example">
-                                        <option selected>Select ID</option>
+                                    <select class="form-select" id="ItemIdOrd" aria-label="Default select example">
+                                        <!--<option selected>Select ID</option>
                                         <option value="1">I001</option>
                                         <option value="2">I002</option>
-                                        <option value="3">I003</option>
+                                        <option value="3">I003</option>-->
                                     </select>
                                 </div>
                             </div>
@@ -333,28 +333,28 @@
                             <div class="col">
                                 <div class="input-group">
                                     <span class="input-group-text">Description</span>
-                                    <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+                                    <input class="form-control" id="desOrd" type="text" placeholder="Ram" aria-label="Disabled input example" disabled>
                                 </div>
                             </div>
 
                             <div class="col">
                                 <div class="input-group">
                                     <span class="input-group-text">Qty On Hand</span>
-                                    <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+                                    <input class="form-control" id="qtyOrd" type="text" placeholder="10" aria-label="Disabled input example" disabled>
                                 </div>
                             </div>
 
                             <div class="col">
                                 <div class="input-group">
                                     <span class="input-group-text">Unit Price</span>
-                                    <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+                                    <input class="form-control" id="unitOrd" type="text" placeholder="2000.00" aria-label="Disabled input example" disabled>
                                 </div>
                             </div>
 
                             <div class="col">
                                 <div class="input-group">
                                     <span class="input-group-text">Quantity</span>
-                                    <input class="form-control" type="text" placeholder="" aria-label="Disabled input example">
+                                    <input class="form-control" id="onHandOrd" type="text" placeholder="" aria-label="Disabled input example">
                                 </div>
                             </div>
 
@@ -412,20 +412,20 @@
                                 <div class="col">
                                     <div class="input-group">
                                         <span class="input-group-text">Total:</span>
-                                        <input class="form-control" type="text" placeholder="O-001" aria-label="Disabled input example" disabled>
+                                        <input class="form-control" type="text" placeholder="O0.00" aria-label="Disabled input example" disabled>
                                     </div>
                                 </div>
                                 <div class="col">
                                     <div class="input-group">
                                         <span class="input-group-text">Discount</span>
-                                        <input class="form-control" type="text" placeholder="2023-05-17" aria-label="Disabled input example" >
+                                        <input class="form-control" type="text" placeholder="00.00" aria-label="Disabled input example" >
                                     </div>
                                 </div>
 
                                 <div class="col">
                                     <div class="input-group">
                                         <span class="input-group-text">Next Total</span>
-                                        <input class="form-control" type="text" placeholder="" aria-label="Disabled input example" disabled>
+                                        <input class="form-control" type="text" placeholder="00.00" aria-label="Disabled input example" disabled>
                                     </div>
                                 </div>
 
@@ -465,6 +465,7 @@
 <script src="assets/js/jquery-3.6.1.min.js"></script>
 <script src="customerJs.js"></script>
 <script src="ItemJs.js"></script>
+<script src="ordersjs.js"></script>
 
 </body>
 </html>
