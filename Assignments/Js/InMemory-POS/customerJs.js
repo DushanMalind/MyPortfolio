@@ -148,6 +148,7 @@ $("#btnClear").click(function (){
 });
 
 $("#btnUpdate").click(function () {
+
     let customerID = $("#txtCustomerID").val();
     let response = updateCustomer(customerID);
     if (response) {
@@ -186,6 +187,7 @@ function deleteCustomer(customerID) {
 }
 
 function setTextfieldValues(id, name, address, contact) {
+    bindRowClickEvents();
     $("#txtCustomerID").val(id);
     $("#txtCustomerName").val(name);
     $("#txtCustomerAddress").val(address);
@@ -216,4 +218,7 @@ function updateCustomer(customerID) {
     }
 
 }
+
+
+
 

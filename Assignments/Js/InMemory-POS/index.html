@@ -83,6 +83,8 @@
 
                             <button id="save" type="button" style="width: 150px" class="btn btn-warning m-auto m-lg-2 justify-content-center" >Save</button>
                             <button id="btnUpdate" type="button" style="width: 150px" class="btn btn-info m-auto m-lg-2">Update</button>
+                            <button id="btnDelete" type="button" style="width: 150px" class="btn btn-dark m-auto m-lg-2">Delete</button>
+                            <button id="btnClear" type="button" style="width: 150px" class="btn btn-danger m-auto m-lg-2">Clear</button>
                         </form>
                     </div>
                 </div>
@@ -146,25 +148,27 @@
                         <h2 class="text-danger text-center m-lg-100 pt-5  text-primary" >Item Details</h2>
                         <form class="row p-4 m-0 m-lg-2  justify-content-center">
                             <div class="mb-3">
-                                <label for="exampleInputEmail2" class="form-label " id="cids1">ID</label>
-                                <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp">
+                                <label for="txtItemId" class="form-label " id="cids1">ID</label>
+                                <input type="text" class="form-control" id="txtItemId" aria-describedby="emailHelp">
                             </div>
                             <div class="mb-3">
-                                <label for="description" class="form-label">Description</label>
-                                <input type="password" class="form-control" id="description">
+                                <label for="txtItemDescription" class="form-label">Description</label>
+                                <input type="text" class="form-control" id="txtItemDescription">
                             </div>
                             <div class="mb-3">
-                                <label for="unitprice" class="form-label">Unitprice</label>
-                                <input type="password" class="form-control" id="unitprice">
+                                <label for="txtItemUnitprice" class="form-label">Unitprice</label>
+                                <input type="text" class="form-control" id="txtItemUnitprice">
                             </div>
                             <div class="mb-3">
-                                <label for="qty" class="form-label">Qty</label>
-                                <input type="password" class="form-control" id="qty">
+                                <label for="txtItemQty" class="form-label">Qty</label>
+                                <input type="text" class="form-control" id="txtItemQty">
                             </div>
 
 
-                            <button type="submit" style="width: 150px" class="btn btn-warning m-auto m-lg-2 justify-content-center" >Save</button>
-                            <button type="submit" style="width: 150px" class="btn btn-info m-auto m-lg-2">Update</button>
+                            <button id="btnItemSave" type="button" style="width: 150px" class="btn btn-warning m-auto m-lg-2 justify-content-center" >Save</button>
+                            <button id="btnItemUpdate" type="button" style="width: 150px" class="btn btn-info m-auto m-lg-2">Update</button>
+                            <button id="btnItemDelete" type="button" style="width: 150px" class="btn btn-dark m-auto m-lg-2">Delete</button>
+                            <button id="btnClearItem" type="button" style="width: 150px" class="btn btn-danger m-auto m-lg-2">Clear</button>
                         </form>
                     </div>
                 </div>
@@ -189,7 +193,7 @@
                             <!--<th style="background-color: #0077b6" scope="col">Action</th>-->
                         </tr>
                         </thead>
-                        <tbody>
+                        <tbody id="tblItem">
                         <tr>
                             <th scope="row">I001</th>
                             <td>Ram</td>
@@ -459,7 +463,8 @@
 
 <script src="assets/js/bootstrap.js"></script>
 <script src="assets/js/jquery-3.6.1.min.js"></script>
-<script src="c.js"></script>
+<script src="customerJs.js"></script>
+<script src="ItemJs.js"></script>
 
 </body>
 </html>

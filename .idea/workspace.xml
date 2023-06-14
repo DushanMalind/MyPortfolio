@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/customerJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/javaScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/ItemJs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/customerJs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/javaScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/javaScript.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Assignments/Js/InMemory-POS/assets/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../javaScript/Work/Java-Script" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -215,14 +218,8 @@
       <workItem from="1686679264166" duration="125000" />
       <workItem from="1686679407603" duration="611000" />
       <workItem from="1686684866170" duration="405000" />
-      <workItem from="1686722406282" duration="921000" />
-    </task>
-    <task id="LOCAL-00029" summary="AS5,AS6">
-      <created>1682755943128</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1682755943128</updated>
+      <workItem from="1686722406282" duration="2075000" />
+      <workItem from="1686725229227" duration="5683000" />
     </task>
     <task id="LOCAL-00030" summary="fixed">
       <created>1682939358493</created>
@@ -560,14 +557,20 @@
       <option name="project" value="LOCAL" />
       <updated>1686722977157</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="customer">
+      <created>1686723360951</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1686723360951</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="readme file" />
     <MESSAGE value="Js SPA" />
     <MESSAGE value="Js" />
     <MESSAGE value="color" />
@@ -592,6 +595,7 @@
     <MESSAGE value="Assignments Js Add" />
     <MESSAGE value="new commit test" />
     <MESSAGE value="customer update switch" />
-    <option name="LAST_COMMIT_MESSAGE" value="customer update switch" />
+    <MESSAGE value="customer" />
+    <option name="LAST_COMMIT_MESSAGE" value="customer" />
   </component>
 </project>
