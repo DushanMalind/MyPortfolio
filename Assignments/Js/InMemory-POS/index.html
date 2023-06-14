@@ -4,58 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Shop System</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
 
-
-    <link rel="stylesheet" href="../../CSS--Framework/pos/assets/css/bootstrap.css">
-    <script src="../../CSS--Framework/pos/assets/js/bootstrap.js"></script>
 
 
 </head>
 <style>
-     .mb-3{
+    .mb-3{
         width: 500px;
     }
-     .hidden
-{
-    display: none !important;
-}
+    .hidden
+    {
+        display: none !important;
+    }
 </style>
 <body>
 
 <header>
     <nav class="navbar navbar-expand-lg navbar bg-dark d-flex flex-row ">
         <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                        <a class="navbar-brand text-white" href="#">Shop System</a>
-                        <ul class="navbar-nav me-auto ms-2 mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active text-white" aria-current="page" href="../../CSS--Framework/pos/index.html" id="customers">Customer</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="../../CSS--Framework/pos/item.html" id="items">Item</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="../../CSS--Framework/pos/orderDeatils.html" id="orderss">Order Details</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="../../CSS--Framework/pos/placeOrder.html" id="placeOrderss">Place Orders</a>
-                            </li>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand text-white" href="#">Shop System</a>
+                <ul class="navbar-nav me-auto ms-2 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href=#" id="customers">Customer</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#" id="items">Item</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#" id="orders">Order Details</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#" id="placeOrders">Place Orders</a>
+                    </li>
 
-                        </ul>
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
             </div>
         </div>
     </nav>
 </header>
 
 
-<div class="container text-center"  id="customer">
+<div class="container text-center"  id="customerContent">
     <div class="row align-items-start">
         <div class="col">
             <h2 class="text-primary text-center m-lg-100 pt-5 " >Customer Details</h2>
@@ -66,25 +64,25 @@
                         <h2 class="text-danger text-center m-lg-100 pt-5  text-primary" >Customer Details</h2>
                         <form class="row p-4 m-0 m-lg-2  justify-content-center">
                             <div class="mb-3">
-                                <label for="ids" class="form-label " id="cids">ID</label>
-                                <input type="text"  class="form-control" id="ids" aria-describedby="emailHelp">
+                                <label for="txtCustomerID" class="form-label " id="cids">ID</label>
+                                <input type="text"  class="form-control" id="txtCustomerID" aria-describedby="emailHelp">
                             </div>
                             <div class="mb-3">
-                                <label for="name" class="form-label">Name</label>
-                                <input type="text" class="form-control" id="name">
+                                <label for="txtCustomerName" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="txtCustomerName">
                             </div>
                             <div class="mb-3">
-                                <label for="address" class="form-label">Address</label>
-                                <input type="text" class="form-control" id="address">
+                                <label for="txtCustomerAddress" class="form-label">Address</label>
+                                <input type="text" class="form-control" id="txtCustomerAddress">
                             </div>
                             <div class="mb-3">
-                                <label for="contact" class="form-label">Contact</label>
-                                <input type="text" class="form-control" id="contact">
+                                <label for="txtCustomerContact" class="form-label">Contact</label>
+                                <input type="text" class="form-control" id="txtCustomerContact">
                             </div>
 
 
                             <button id="save" type="button" style="width: 150px" class="btn btn-warning m-auto m-lg-2 justify-content-center" >Save</button>
-                            <button type="button" style="width: 150px" class="btn btn-info m-auto m-lg-2">Update</button>
+                            <button id="btnUpdate" type="button" style="width: 150px" class="btn btn-info m-auto m-lg-2">Update</button>
                         </form>
                     </div>
                 </div>
@@ -106,7 +104,7 @@
                             <th style="background-color: #0077b6" scope="col">Name</th>
                             <th style="background-color: #0077b6" scope="col">Address</th>
                             <th style="background-color: #0077b6" scope="col">Contact</th>
-                            <th style="background-color: #0077b6" scope="col">Action</th>
+                            <!--   <th style="background-color: #0077b6" scope="col">Action</th>-->
                         </tr>
                         </thead>
                         <tbody id="tblCustomer">
@@ -115,10 +113,10 @@
                             <td>Dushan</td>
                             <td>Galle</td>
                             <td>077125653</td>
-                            <td>
-                                <button type="button" class="btn btn-primary">Edit</button>
-                                <button type="button" class="btn btn-danger">Delete</button>
-                            </td>
+                            <!--  <td>
+                                  <button type="button" class="btn btn-primary">Edit</button>
+                                  <button type="button" class="btn btn-danger">Delete</button>
+                              </td>-->
                         </tr>
 
 
@@ -127,17 +125,17 @@
 
                 </section>
 
-            </section>
+                </section>
+            </div>
+
         </div>
-
     </div>
-</div>
 
 
 
 </div>
 
-<div class="container text-center" hidden id="item">
+<div class="container text-center"  id="itemContent">
     <div class="row align-items-start">
         <div class="col">
             <h2 class="text-primary text-center m-lg-100 pt-5 " >Item Details</h2>
@@ -188,7 +186,7 @@
                             <th style="background-color: #0077b6" scope="col">Description</th>
                             <th style="background-color: #0077b6" scope="col">Unitprice</th>
                             <th style="background-color: #0077b6" scope="col">Qty</th>
-                            <th style="background-color: #0077b6" scope="col">Action</th>
+                            <!--<th style="background-color: #0077b6" scope="col">Action</th>-->
                         </tr>
                         </thead>
                         <tbody>
@@ -197,10 +195,10 @@
                             <td>Ram</td>
                             <td>8000</td>
                             <td>10</td>
-                            <td>
-                                <button type="button" class="btn btn-primary">Edit</button>
-                                <button type="button" class="btn btn-danger">Delete</button>
-                            </td>
+                            <!--     <td>
+                                     <button type="button" class="btn btn-primary">Edit</button>
+                                     <button type="button" class="btn btn-danger">Delete</button>
+                                 </td>-->
                         </tr>
 
 
@@ -217,7 +215,7 @@
 
 </div>
 
-<section class="row mt-3 border border-danger rounded p-3 " hidden id="orders"  >
+<section class="row mt-3 border border-danger rounded p-3 "  id="ordersContent"  >
     <div class="col">
         <h2 class="text-primary text-center m-lg-100 pt-5 " >Order Details</h2>
         <section class="container col me-auto ms-20 mb-10">
@@ -233,7 +231,7 @@
                     <th style="background-color: #0077b6" scope="col">Qty</th>
                     <th style="background-color: #0077b6" scope="col">Discount</th>
                     <th style="background-color: #0077b6" scope="col">Total</th>
-                    <th style="background-color: #da9aef" scope="col">Action</th>
+                    <!--  <th style="background-color: #da9aef" scope="col">Action</th>-->
                 </tr>
                 </thead>
                 <tbody>
@@ -245,10 +243,10 @@
                     <td>10</td>
                     <td>4000</td>
                     <td>80000</td>
-                    <td>
-                        <button type="button" class="btn btn-primary">Edit</button>
-                        <button type="button" class="btn btn-danger">Delete</button>
-                    </td>
+                    <!-- <td>
+                         <button type="button" class="btn btn-primary">Edit</button>
+                         <button type="button" class="btn btn-danger">Delete</button>
+                     </td>-->
                 </tr>
                 </tbody>
             </table>
@@ -262,7 +260,7 @@
     </div>
 </section>
 
-<div class="container " hidden id="placeOrders" >
+<div class="container "  id="placeOrdersContent" >
     <div class="row align-items-start">
         <div class="col">
             <section class="container row mt-3 border border-danger rounded p-3 ">
@@ -386,7 +384,7 @@
                                 <th style="background-color: #0077b6" scope="col">Unitprice</th>
                                 <th style="background-color: #0077b6" scope="col">Qty</th>
                                 <th style="background-color: #0077b6" scope="col">Total</th>
-                                <th style="background-color: #da9aef" scope="col">Action</th>
+                                <!-- <th style="background-color: #da9aef" scope="col">Action</th>-->
                             </tr>
                             </thead>
                             <tbody>
@@ -396,10 +394,10 @@
                                 <td>8000</td>
                                 <td>10</td>
                                 <td>80000</td>
-                                <td>
+                                <!--<td>
                                     <button type="button" class="btn btn-primary">Edit</button>
                                     <button type="button" class="btn btn-danger">Delete</button>
-                                </td>
+                                </td>-->
                             </tr>
                             </tbody>
                         </table>
@@ -459,172 +457,9 @@
    alert("Are you sure")
 </script>-->
 
-<script src="javaScript.js"></script>
-<script>
-   /* document.getElementById("customers").addEventListener("click",function (){
-        let id=document.getElementById("txtCustomerID").value;
-        let name=document.getElementById("txtCustomerName").value;
-        let address=document.getElementById("txtCustomerAddress").value;
-        let contact=document.getElementById("txtCustomerContact").value;
+<script src="assets/js/bootstrap.js"></script>
+<script src="assets/js/jquery-3.6.1.min.js"></script>
+<script src="customerJs.js"></script>
 
-
-        let txtId= document.createElement("td");
-        let b=document.createElement("td");
-        let c=document.createElement("td");
-        let d=document.createElement("td");
-
-        txtId.appendChild(id);
-        b.appendChild(name);
-        c.appendChild(address);
-        d.appendChild(contact);
-
-        let g=document.createElement("tr");
-        g.appendChild(txtId);
-        g.appendChild(b);
-        g.appendChild(c);
-        g.appendChild(d);
-
-        document.getElementById("tblCustomer").appendChild(g);
-
-    });*/
-
-   var customers=[];
-
-   $("#save").click(function (){
-       let cusId=$("#txtCustomerID").val();
-       let cusName=$("#txtCustomerName").val();
-       let cusAddress=$("#txtCustomerAddress").val();
-       let cusContact=$("#txtCustomerContact").val();
-
-       var customerObject={
-           id:cusId,
-           name:cusName,
-           address:cusAddress,
-           contact:cusContact
-
-       }
-
-       customers.push(customerObject);
-
-       loadAllCustomers();
-
-       bindRowClickEvents();
-   });
-
-
-   function bindRowClickEvents() {
-       $("#tblCustomer>tr").click(function () {
-           let id = $(this).children(":eq(0)").text();
-           let name = $(this).children(":eq(1)").text();
-           let address = $(this).children(":eq(2)").text();
-           let contact = $(this).children(":eq(3)").text();
-
-           $('#txtCustomerID').val(id);
-           $('#txtCustomerName').val(name);
-           $('#txtCustomerAddress').val(address);
-           $('#txtCustomerContact').val(contact);
-
-       });
-   }
-
-
-   function loadAllCustomers() {
-
-       $("#tblCustomer").empty();
-
-       for (var customer of customers) {
-           var row = `<tr><td>${customer.id}</td><td>${customer.name}</td><td>${customer.address}</td><td>${customer.contact}</td></tr>`;
-
-           $("#tblCustomer").append(row);
-       }
-   }
-
-
-   $("#btnDelete").click(function (){
-
-       let deleteId=$("#txtCustomerID").val();
-
-       let option=confirm("Do you Sure?"+deleteId);
-       if (option){
-           if (deleteCustomer(deleteId)) {
-               alert("Customer Successfully Deleted..");
-               setTextfieldValues("", "", "", "");
-           } else {
-               alert("No such customer to delete");
-           }
-       }
-   });
-
-   $("#btnUpdate").click(function () {
-       let customerID = $("#txtCustomerID").val();
-       let response = updateCustomer(customerID);
-       if (response) {
-           alert("Customer Updated Successfully");
-           setTextfieldValues("", "", "", "");
-       } else {
-           alert("Update Failed..!");
-
-       }
-   });
-
-
-   $("#txtCustomerID").on('keyup', function (event) {
-       if (event.code == "Enter") {
-           let typedId = $("#txtCustomerID").val();
-           let customer = searchCustomer(typedId);
-           if (customer != null) {
-               setTextfieldValues(customer.id, customer.name, customer.address, customer.contact);
-           } else {
-               alert("There is no cusotmer available for that " + typedId);
-               setTextfieldValues("", "", "", "");
-           }
-       }
-   });
-
-   function deleteCustomer(customerID) {
-       let customer = searchCustomer(customerID);
-       if (customer != null) {
-           let indexNumber = customers.indexOf(customer);
-           customers.splice(indexNumber, 1);
-           loadAllCustomers();
-           return true;
-       } else {
-           return false;
-       }
-   }
-
-   function setTextfieldValues(id, name, address, contact) {
-       $("#txtCustomerID").val(id);
-       $("#txtCustomerName").val(name);
-       $("#txtCustomerAddress").val(address);
-       $("#txtCustomerContact").val(contact);
-   }
-
-
-   function searchCustomer(cusID) {
-       for (let customer of customers) {
-           if (customer.id == cusID) {
-               return customer;
-           }
-       }
-       return null;
-   }
-
-   function updateCustomer(customerID) {
-       let customer = searchCustomer(customerID);
-       if (customer != null) {
-           customer.id = $("#txtCustomerID").val();
-           customer.name = $("#txtCustomerName").val();
-           customer.address = $("#txtCustomerAddress").val();
-           customer.contact = $("#txtCustomerContact").val();
-           loadAllCustomers();
-           return true;
-       } else {
-           return false;
-       }
-
-   }
-
-</script>
 </body>
 </html>
