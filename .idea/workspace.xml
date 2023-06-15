@@ -7,7 +7,6 @@
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/customerJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/customerJs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,14 +220,8 @@
       <workItem from="1686739750812" duration="3610000" />
       <workItem from="1686760870031" duration="1411000" />
       <workItem from="1686797041162" duration="19436000" />
-      <workItem from="1686838400086" duration="2485000" />
-    </task>
-    <task id="LOCAL-00032" summary="fixed 2 test">
-      <created>1683015937059</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1683015937059</updated>
+      <workItem from="1686838400086" duration="5331000" />
+      <workItem from="1686846781022" duration="5373000" />
     </task>
     <task id="LOCAL-00033" summary="fixed 3 test">
       <created>1683017333668</created>
@@ -566,14 +559,20 @@
       <option name="project" value="LOCAL" />
       <updated>1686761072666</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="customer ok">
+      <created>1686842877240</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1686842877240</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="color" />
     <MESSAGE value="img add 1" />
     <MESSAGE value="img add 2" />
     <MESSAGE value="img add" />
@@ -598,6 +597,7 @@
     <MESSAGE value="customer" />
     <MESSAGE value="items js" />
     <MESSAGE value="orders js" />
-    <option name="LAST_COMMIT_MESSAGE" value="orders js" />
+    <MESSAGE value="customer ok" />
+    <option name="LAST_COMMIT_MESSAGE" value="customer ok" />
   </component>
 </project>

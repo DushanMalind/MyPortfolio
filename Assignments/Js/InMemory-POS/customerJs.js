@@ -75,7 +75,10 @@ $("#placeOrders").click(function () {
 var customers=[];
 
 $("#save").click(function (){
-    let cusId=$("#txtCustomerID").val();
+
+    saveCustomer();
+   /* let cusId=$("#txtCustomerID").val();
+    if (searchCustomer(cusId.trim()==undefined))
     let cusName=$("#txtCustomerName").val();
     let cusAddress=$("#txtCustomerAddress").val();
     let cusContact=$("#txtCustomerContact").val();
@@ -93,8 +96,37 @@ $("#save").click(function (){
     loadAllCustomers();
     loadAllCustomerId();
     bindRowClickEvents();
-
+    clearAllData();*/
 });
+
+
+function saveCustomer(){
+    let cusId=$("#txtCustomerID").val();
+    if (searchCustomer(cusId.trim())==undefined){
+        let cusName=$("#txtCustomerName").val();
+        let cusAddress=$("#txtCustomerAddress").val();
+        let cusContact=$("#txtCustomerContact").val();
+
+        var customerObject={
+            id:cusId,
+            name:cusName,
+            address:cusAddress,
+            contact:cusContact
+
+        }
+
+        customers.push(customerObject);
+
+        loadAllCustomers();
+        loadAllCustomerId();
+        bindRowClickEvents();
+        clearAllData();
+    }else {
+        alert("Customer already exits.!");
+    }
+
+}
+
 
 $('#txtCustomerID,#txtCustomerName,#txtCustomerAddress,#txtCustomerAddress,#txtCustomerContact').keydown(function (e){
    /* e.preventDefault();*/
@@ -142,6 +174,7 @@ $('#txtCustomerID,#txtCustomerName,#txtCustomerAddress,#txtCustomerAddress,#txtC
 })
 
 function bindRowClickEvents() {
+
     $("#tblCustomer>tr").click(function () {
         let id = $(this).children(":eq(0)").text();
         let name = $(this).children(":eq(1)").text();
@@ -152,7 +185,20 @@ function bindRowClickEvents() {
         $('#txtCustomerName').val(name);
         $('#txtCustomerAddress').val(address);
         $('#txtCustomerContact').val(contact);
+
+
     });
+
+
+
+}
+
+function setCusButtonUpdate(value){
+    if (value>1){
+        $("#btnUpdate").attr('disabled',disabled);
+    }else{
+        $("#btnUpdate").attr('disabled',false);
+    }
 }
 
 
@@ -184,11 +230,19 @@ $("#btnDelete").click(function (){
 });
 
 
-$("#btnClear").click(function (){
+function clearAllData(){
     $('#txtCustomerID').val("");
     $('#txtCustomerName').val("");
     $('#txtCustomerAddress').val("");
     $('#txtCustomerContact').val("");
+}
+
+$("#btnClear").click(function (){
+   /* $('#txtCustomerID').val("");
+    $('#txtCustomerName').val("");
+    $('#txtCustomerAddress').val("");
+    $('#txtCustomerContact').val("");*/
+    clearAllData();
 });
 
 $("#btnUpdate").click(function () {
@@ -238,6 +292,13 @@ function setTextfieldValues(id, name, address, contact) {
     $("#txtCustomerContact").val(contact);
 }
 
+/*function searchCustomer(id) {
+    return customers.find(function (customer) {
+        //if the search id match with customer record
+        //then return that object
+        return customer.id == id;
+    });
+}*/
 
 function searchCustomer(id) {
     for (let customer of customers) {
@@ -255,6 +316,7 @@ function updateCustomer(customerID) {
         customer.name = $("#txtCustomerName").val();
         customer.address = $("#txtCustomerAddress").val();
         customer.contact = $("#txtCustomerContact").val();
+        let error=0;
         loadAllCustomers();
         return true;
     } else {
@@ -263,6 +325,13 @@ function updateCustomer(customerID) {
 
 }
 
+
+
+
+
+/**
+///////////////////////////////////////////////////////
+**/
 const cusIDRegEx = /^(C00-)[0-9]{1,3}$/;
 const cusNameRegEx = /^[A-z ]{5,20}$/;
 const cusAddressRegEx = /^[0-9/A-z. ,]{7,}$/;
