@@ -93,8 +93,53 @@ $("#save").click(function (){
     loadAllCustomers();
     loadAllCustomerId();
     bindRowClickEvents();
+
 });
 
+$('#txtCustomerID,#txtCustomerName,#txtCustomerAddress,#txtCustomerAddress,#txtCustomerContact').keydown(function (e){
+   /* e.preventDefault();*/
+    if (e.key=="Tab") {
+        e.preventDefault();
+    }
+
+    $("#txtCustomerID").keydown(function (e){
+        let cid=$("#txtCustomerID").val();
+
+       if (e.key=="Enter"){
+           if (cusIDRegEx.test(cid)){
+               $("#txtCustomerName").focus();
+           }else {
+
+           }
+
+       }
+    });
+
+    let cid=$("#txtCustomerName").val();
+
+    $("#txtCustomerName").keydown(function (e){
+        if (e.key=="Enter"){
+            if (cusNameRegEx.test(cid)){
+                $("#txtCustomerAddress").focus();
+            }
+
+        }
+    });
+
+    $("#txtCustomerAddress").keydown(function (e){
+        if (e.key=="Enter"){
+            $("#txtCustomerContact").focus();
+        }
+    });
+
+    $("#txtCustomerContact").keydown(function (e){
+        if (e.key=="Enter"){
+            $("#save").focus();
+        }
+    });
+
+
+})
 
 function bindRowClickEvents() {
     $("#tblCustomer>tr").click(function () {
@@ -107,7 +152,6 @@ function bindRowClickEvents() {
         $('#txtCustomerName').val(name);
         $('#txtCustomerAddress').val(address);
         $('#txtCustomerContact').val(contact);
-
     });
 }
 
@@ -218,6 +262,96 @@ function updateCustomer(customerID) {
     }
 
 }
+
+const cusIDRegEx = /^(C00-)[0-9]{1,3}$/;
+const cusNameRegEx = /^[A-z ]{5,20}$/;
+const cusAddressRegEx = /^[0-9/A-z. ,]{7,}$/;
+const cusContactRegEx = /^[0-9]{1,}[.]?[0-9]{1,2}$/;
+
+$("#txtCustomerID").focus();
+
+let customerValideaction=[];
+
+customerValideaction.push({reg: cusIDRegEx, field: $('#txtCustomerID'),error:'Customer ID Pattern is Wrong : C00-001'});
+customerValideaction.push({reg: cusNameRegEx, field: $('#txtCustomerName'),error:'Customer Name Pattern is Wrong : Kamal'});
+customerValideaction.push({reg: cusAddressRegEx, field: $('#txtCustomerAddress'),error:'Customer Address Pattern is Wrong : Galle'});
+customerValideaction.push({reg: cusContactRegEx, field: $('#txtCustomerContact'),error:'Customer Contact Pattern is Wrong : 077125147'});
+
+$('#txtCustomerID,#txtCustomerName,#txtCustomerAddress,#txtCustomerAddress,#txtCustomerContact').on('keyup',function (event){
+    checkCusValidity();
+});
+
+$('#txtCustomerID,#txtCustomerName,#txtCustomerAddress,#txtCustomerAddress,#txtCustomerContact').on('blur',function (event){
+    checkCusValidity();
+});
+
+
+function checkCusValidity() {
+    let errorCount=0;
+    for (let validation of customerValideaction) {
+        if (checkCus(validation.reg,validation.field)) {
+            textCusSuccess(validation.field,"");
+        } else {
+            errorCount=errorCount+1;
+            setCusTextError(validation.field,validation.error);
+        }
+    }
+    setCusButtonState(errorCount);
+}
+
+function checkCus(regex, txtField) {
+    let inputValue = txtField.val();
+    return regex.test(inputValue) ? true : false;
+}
+
+function textCusSuccess(txtField,error) {
+    if (txtField.val().length <= 0) {
+        defaultCusText(txtField,"");
+    } else {
+        txtField.css('border', '2px solid green');
+        txtField.parent().children('span').text(error);
+    }
+}
+
+function setCusTextError(txtField,error) {
+    if (txtField.val().length <= 0) {
+        defaultCusText(txtField,"");
+    } else {
+        txtField.css('border', '2px solid red');
+        txtField.parent().children('span').text(error);
+    }
+}
+
+function defaultCusText(txtField,error) {
+    txtField.css("border", "1px solid #ced4da");
+    txtField.parent().children('span').text(error);
+}
+
+function setCusButtonState(value){
+    if (value>0){
+        $("#save").attr('disabled',true);
+    }else{
+        $("#save").attr('disabled',false);
+    }
+}
+
+$("#clear").click(function () {
+    clearAllCusData();
+});
+
+function clearAllCusData() {
+    $('#txtCustomerID').val("");
+    $('#txtCustomerName').val("");
+    $('#txtCustomerAddress').val("");
+    $('#txtCustomerContact').val("");
+
+    $('#id').val("");
+    $('#name').val("");
+    $('#address').val("");
+    $('#contact').val("");
+}
+
+
 
 
 
