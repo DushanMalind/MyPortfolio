@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/css/bubbles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/jquery-3.6.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/snowstorm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/ItemJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/ItemJs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/customerJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/customerJs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -47,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../HTML/css1/CSS-Basics" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -60,18 +61,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intracnct\Work\Workingzone\My\MyPortfolio\assets\js" />
+      <recent name="D:\Intracnct\Work\Workingzone\My\MyPortfolio\assets\css" />
       <recent name="D:\Intracnct\Work\Workingzone\My\MyPortfolio\Assignments\Js\InMemory-POS\assets\js" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\SPA\assets\js" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\SPA" />
-      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\assets\img" />
-      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\InMemory-POS" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Intracnct\Work\Workingzone\My\MyPortfolio\assets\js" />
       <recent name="D:\Intracnct\Work\Workingzone\My\MyPortfolio\Assignments\Js\InMemory-POS\assets\js" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\KINGHT\assets\audio" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\CSS--Framework\pos" />
-      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\CSS--Framework\pos\assets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -228,14 +229,9 @@
       <workItem from="1686882448042" duration="123000" />
       <workItem from="1686882595516" duration="2991000" />
       <workItem from="1686889694122" duration="1004000" />
-      <workItem from="1686899013520" duration="3013000" />
-    </task>
-    <task id="LOCAL-00034" summary="Transitions">
-      <created>1683107840196</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1683107840196</updated>
+      <workItem from="1686899013520" duration="8047000" />
+      <workItem from="1686911215741" duration="1414000" />
+      <workItem from="1686912852982" duration="327000" />
     </task>
     <task id="LOCAL-00035" summary="fix test 4">
       <created>1683125365060</created>
@@ -573,14 +569,20 @@
       <option name="project" value="LOCAL" />
       <updated>1686852179407</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Item Done regex">
+      <created>1686902732485</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1686902732486</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="img add 2" />
     <MESSAGE value="img add" />
     <MESSAGE value="img add 3" />
     <MESSAGE value="img add 4" />
@@ -605,6 +607,7 @@
     <MESSAGE value="orders js" />
     <MESSAGE value="customer ok" />
     <MESSAGE value="customer Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="customer Done" />
+    <MESSAGE value="Item Done regex" />
+    <option name="LAST_COMMIT_MESSAGE" value="Item Done regex" />
   </component>
 </project>

@@ -28,11 +28,29 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
            integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
 
+    <!-- <link rel="stylesheet" href="assets/css/bubbles.css">-->
+
 
 
 </head>
 
 <body>
+
+<section class="sticky">
+    <div class="bubbles1">
+        <div class="bubble1"></div>
+        <div class="bubble1"></div>
+        <div class="bubble1"></div>
+        <div class="bubble1"></div>
+        <div class="bubble1"></div>
+        <div class="bubble1"></div>
+        <div class="bubble1"></div>
+        <div class="bubble1"></div>
+        <div class="bubble1"></div>
+        <div class="bubble1"></div>
+
+    </div>
+</section>
 
 <!-- My Main Container-->
 
@@ -207,7 +225,6 @@
                </div>
 
            </section>
-
             <section class="about section hidden" id="about">
                 <div class="container">
                     <div class="row">
@@ -1103,6 +1120,29 @@
 
     </div>
 
+
+
+<script src="assets/js/jquery-3.6.1.min.js"></script>
+<script src="assets/js/mouseAnimation.js"></script>
+<script>
+    let h1 = $(".sticky");
+    let timerID;
+    //to use jQuery methods it should be a jQuery object
+    //so to bind jQuery events to window you have to wrap the window
+    //to jQuery object // $(window) you can do it like this way
+    $(window).mousemove(function (e) {
+        h1.fadeIn(1000);
+        /* h1.css("position", "relative");*/
+        h1.css("left", e.pageX + "px");
+        h1.css("top", e.pageY + "px");
+
+        clearTimeout(timerID);
+        timerID = setTimeout(function () {
+            h1.fadeOut(1000);
+        }, 4000)
+
+    });
+</script>
 </body>
 
 
