@@ -72,30 +72,118 @@ $("#placeOrders").click(function () {
 });
 
 
-var items=[];
+var items = [];
 
-$("#btnItemSave").click(function (){
-    let itemIds=$("#txtItemId").val();
-    let itemDescription=$("#txtItemDescription").val();
-    let itemUnitprice=$("#txtItemUnitprice").val();
-    let itemQty=$("#txtItemQty").val();
+$("#btnItemSave").click(function () {
+    itemSave();
+    /* let itemIds=$("#txtItemId").val();
+     let itemDescription=$("#txtItemDescription").val();
+     let itemUnitprice=$("#txtItemUnitprice").val();
+     let itemQty=$("#txtItemQty").val();
 
-    var itemObject={
-        itemId:itemIds,
-        descriptions:itemDescription,
-        unitprice:itemUnitprice,
-        qty:itemQty
+     var itemObject={
+         itemId:itemIds,
+         descriptions:itemDescription,
+         unitprice:itemUnitprice,
+         qty:itemQty
 
-    }
+     }
 
-    items.push(itemObject);
+     items.push(itemObject);
 
-    loadAllItems();
-    loadAllItemId();
+     loadAllItems();
+     loadAllItemId();
 
-    bindRowClickEventsItems();
+     bindRowClickEventsItems();*/
 });
 
+function itemSave() {
+    let itemIds = $("#txtItemId").val();
+    if (searchItem(itemIds.trim()) == undefined) {
+        let itemDescription = $("#txtItemDescription").val();
+        let itemUnitprice = $("#txtItemUnitprice").val();
+        let itemQty = $("#txtItemQty").val();
+
+        var itemObject = {
+            itemId: itemIds,
+            descriptions: itemDescription,
+            unitprice: itemUnitprice,
+            qty: itemQty
+
+        }
+
+        items.push(itemObject);
+
+        loadAllItems();
+        loadAllItemId();
+
+        bindRowClickEventsItems();
+        clearItemData();
+    } else {
+        alert("Item already exits.!");
+    }
+}
+
+function clearItemData() {
+    $('#txtItemId').val("");
+    $('#txtItemDescription').val("");
+    $('#txtItemUnitprice').val("");
+    $('#txtItemQty').val("");
+}
+
+
+$('#txtItemId,#txtItemDescription,#txtItemUnitprice,#txtItemQty').keydown(function (e) {
+    /* e.preventDefault();*/
+    if (e.key == "Tab") {
+        e.preventDefault();
+    }
+
+    $("#txtItemId").keydown(function (e) {
+        let itemId = $("#txtItemId").val();
+
+        if (e.key == "Enter") {
+            if (itmIDRegEx.test(itemId)) {
+                $("#txtItemDescription").focus();
+            } else {
+
+            }
+
+        }
+    });
+
+    let itemDesc = $("#txtItemDescription").val();
+
+    $("#txtItemDescription").keydown(function (e) {
+        if (e.key == "Enter") {
+            if (itemDescRegEx.test(itemDesc)) {
+                $("#txtItemUnitprice").focus();
+            }
+
+        }
+    });
+
+    let itemUnit = $("#txtItemUnitprice").val();
+    $("#txtItemUnitprice").keydown(function (e) {
+        if (e.key == "Enter") {
+            if (itemUnitRegEx.test(itemUnit)) {
+                $("#txtItemQty").focus();
+            }
+
+        }
+    });
+
+    let itemQty = $("#txtItemQty").val();
+    $("#txtItemQty").keydown(function (e) {
+        if (e.key == "Enter") {
+            if (itemQTYtRegEx.test(itemQty)) {
+                $("#btnItemSave").focus();
+            }
+
+        }
+    });
+
+
+})
 
 function bindRowClickEventsItems() {
     $("#tblItem>tr").click(function () {
@@ -109,9 +197,19 @@ function bindRowClickEventsItems() {
         $('#txtItemUnitprice').val(unitprice);
         $('#txtItemQty').val(qty);
 
+        setItemButtonUpdate(2);
+        $("#btnItemUpdate").attr('disabled', false);
     });
+    $("#btnItemUpdate").attr('disabled', true);
 }
 
+function setItemButtonUpdate(value) {
+    if (value > 1) {
+        $("#btnItemUpdate").attr('disabled', true);
+    } else {
+        $("#btnItemUpdate").attr('disabled', disabled);
+    }
+}
 
 function loadAllItems() {
 
@@ -125,12 +223,12 @@ function loadAllItems() {
 }
 
 
-$("#btnItemDelete").click(function (){
+$("#btnItemDelete").click(function () {
     /*bindRowClickEventsItems();*/
-    let deleteIds=$("#txtItemId").val();
+    let deleteIds = $("#txtItemId").val();
 
-    let option=confirm("Do you Sure?"+deleteIds);
-    if (option){
+    let option = confirm("Do you Sure?" + deleteIds);
+    if (option) {
         if (deleteItem(deleteIds)) {
             alert("Item Successfully Deleted..");
             setTextfieldValuesItem("", "", "", "");
@@ -140,21 +238,23 @@ $("#btnItemDelete").click(function (){
     }
 });
 
-$("#btnClearItem").click(function (){
-    $('#txtItemId').val("");
+$("#btnClearItem").click(function () {
+    clearItemData();
+    /*$('#txtItemId').val("");
     $('#txtItemDescription').val("");
     $('#txtItemUnitprice').val("");
-    $('#txtItemQty').val("");
+    $('#txtItemQty').val("");*/
 });
 
 
 $("#btnItemUpdate").click(function () {
-   /* bindRowClickEventsItems();*/
+    /* bindRowClickEventsItems();*/
     let ItemId = $("#txtItemId").val();
     let responses = updateItem(ItemId);
     if (responses) {
         alert("Item Updated Successfully");
         setTextfieldValuesItem("", "", "", "");
+
     } else {
         alert("Update Failed..!");
 
@@ -219,4 +319,107 @@ function updateItem(Items) {
     }
 
 }
+
+
+/**
+ ///////////////////////////////////////////////////////
+ **/
+const itmIDRegEx = /^(I00-)[0-9]{1,3}$/;
+const itemDescRegEx = /^[A-z ]{5,20}$/;
+const itemUnitRegEx = /^[0-9/A-z. ,]{7,}$/;
+const itemQTYtRegEx = /^[0-9]{1,}[0-9]{1,2}$/;
+
+$("#txtCustomerID").focus();
+
+let itemValideaction = [];
+
+itemValideaction.push({reg: itmIDRegEx, field: $('#txtItemId'), error: 'Item ID Pattern is Wrong : I00-001'});
+itemValideaction.push({
+    reg: itemDescRegEx,
+    field: $('#txtItemDescription'),
+    error: 'Item Description Pattern is Wrong : Ram'
+});
+itemValideaction.push({
+    reg: itemUnitRegEx,
+    field: $('#txtItemUnitprice'),
+    error: 'Item UnitPrice Pattern is Wrong : 2000.00'
+});
+itemValideaction.push({reg: itemQTYtRegEx, field: $('#txtItemQty'), error: 'Item Qty Pattern is Wrong : 10'});
+
+$('#txtItemId,#txtItemDescription,#txtItemUnitprice,#txtItemQty').on('keyup', function (event) {
+    checkCusValidityItem();
+});
+
+$('#txtItemId,#txtItemDescription,#txtItemUnitprice,#txtItemQty').on('blur', function (event) {
+    checkCusValidityItem();
+});
+
+
+function checkCusValidityItem() {
+    let errorCount = 0;
+    for (let validation of itemValideaction) {
+        if (checkItem(validation.reg, validation.field)) {
+            textItemSuccess(validation.field, "");
+        } else {
+            errorCount = errorCount + 1;
+            setItemTextError(validation.field, validation.error);
+        }
+    }
+    setCusButtonState(errorCount);
+}
+
+function checkItem(regex, txtField) {
+    let inputValue = txtField.val();
+    return regex.test(inputValue) ? true : false;
+}
+
+function textItemSuccess(txtField, error) {
+    if (txtField.val().length <= 0) {
+        defaultCusText(txtField, "");
+    } else {
+        txtField.css('border', '2px solid green');
+        txtField.parent().children('span').text(error);
+    }
+}
+
+function setItemTextError(txtField, error) {
+    if (txtField.val().length <= 0) {
+        defaultCusText(txtField, "");
+    } else {
+        txtField.css('border', '2px solid red');
+        txtField.parent().children('span').text(error);
+    }
+}
+
+function defaultCusText(txtField, error) {
+    txtField.css("border", "1px solid #ced4da");
+    txtField.parent().children('span').text(error);
+}
+
+function setCusButtonState(value) {
+    if (value > 0) {
+        $("#btnItemSave").attr('disabled', true);
+    } else {
+        $("#btnItemSave").attr('disabled', false);
+    }
+}
+
+$("#btnClearItem").click(function () {
+    clearAllItemData();
+});
+
+function clearAllItemData() {
+    $('#txtItemId').val("");
+    $('#txtItemDescription').val("");
+    $('#txtItemUnitprice').val("");
+    $('#txtItemQty').val("");
+
+    $('#itemId').val("");
+    $('#descriptions').val("");
+    $('#unitprice').val("");
+    $('#qty').val("");
+}
+
+
+
 

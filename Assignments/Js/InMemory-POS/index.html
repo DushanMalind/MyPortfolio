@@ -86,7 +86,7 @@
 
 
                             <button id="save" type="button" style="width: 150px" class="btn btn-warning m-auto m-lg-2 justify-content-center" >Save</button>
-                            <button id="btnUpdate" type="button" style="width: 150px" class="btn btn-info m-auto m-lg-2">Update</button>
+                            <button id="btnUpdate" type="button" style="width: 150px" class="btn btn-info m-auto m-lg-2" disabled>Update</button>
                             <button id="btnDelete" type="button" style="width: 150px" class="btn btn-dark m-auto m-lg-2">Delete</button>
                             <button id="btnClear" type="button" style="width: 150px" class="btn btn-danger m-auto m-lg-2">Clear</button>
                         </form>
@@ -154,23 +154,27 @@
                             <div class="mb-3">
                                 <label for="txtItemId" class="form-label " id="cids1">ID</label>
                                 <input type="text" class="form-control" id="txtItemId" aria-describedby="emailHelp">
+                                <span class="control-error" style="color: red" id="lblItemId"></span>
                             </div>
                             <div class="mb-3">
                                 <label for="txtItemDescription" class="form-label">Description</label>
                                 <input type="text" class="form-control" id="txtItemDescription">
+                                <span class="control-error" style="color: red" id="lblItemDesc"></span>
                             </div>
                             <div class="mb-3">
                                 <label for="txtItemUnitprice" class="form-label">Unitprice</label>
                                 <input type="text" class="form-control" id="txtItemUnitprice">
+                                <span class="control-error" style="color: red" id="lblItemUnit"></span>
                             </div>
                             <div class="mb-3">
                                 <label for="txtItemQty" class="form-label">Qty</label>
                                 <input type="text" class="form-control" id="txtItemQty">
+                                <span class="control-error" style="color: red" id="lblItemQty"></span>
                             </div>
 
 
                             <button id="btnItemSave" type="button" style="width: 150px" class="btn btn-warning m-auto m-lg-2 justify-content-center" >Save</button>
-                            <button id="btnItemUpdate" type="button" style="width: 150px" class="btn btn-info m-auto m-lg-2">Update</button>
+                            <button id="btnItemUpdate" type="button" style="width: 150px" class="btn btn-info m-auto m-lg-2" disabled>Update</button>
                             <button id="btnItemDelete" type="button" style="width: 150px" class="btn btn-dark m-auto m-lg-2">Delete</button>
                             <button id="btnClearItem" type="button" style="width: 150px" class="btn btn-danger m-auto m-lg-2">Clear</button>
                         </form>

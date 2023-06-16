@@ -186,16 +186,17 @@ function bindRowClickEvents() {
         $('#txtCustomerAddress').val(address);
         $('#txtCustomerContact').val(contact);
 
-
+        setCusButtonUpdate(2);
+        $("#btnUpdate").attr('disabled',false);
     });
-
+    $("#btnUpdate").attr('disabled',true);
 
 
 }
 
 function setCusButtonUpdate(value){
     if (value>1){
-        $("#btnUpdate").attr('disabled',disabled);
+        $("#btnUpdate").attr('disabled',true);
     }else{
         $("#btnUpdate").attr('disabled',false);
     }
