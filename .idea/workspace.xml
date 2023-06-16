@@ -7,6 +7,7 @@
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/customerJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/customerJs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,14 +229,7 @@
       <workItem from="1686889694122" duration="1004000" />
       <workItem from="1686899013520" duration="8047000" />
       <workItem from="1686911215741" duration="1414000" />
-      <workItem from="1686912852982" duration="2541000" />
-    </task>
-    <task id="LOCAL-00036" summary="bubbles animations">
-      <created>1683189480574</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1683189480574</updated>
+      <workItem from="1686912852982" duration="4978000" />
     </task>
     <task id="LOCAL-00037" summary="animations My">
       <created>1683219359477</created>
@@ -573,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686913364759</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="customer">
+      <created>1686917578789</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1686917578789</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,13 +599,13 @@
     <MESSAGE value="Assignments Js Add" />
     <MESSAGE value="new commit test" />
     <MESSAGE value="customer update switch" />
-    <MESSAGE value="customer" />
     <MESSAGE value="items js" />
     <MESSAGE value="orders js" />
     <MESSAGE value="customer ok" />
     <MESSAGE value="customer Done" />
     <MESSAGE value="Item Done regex" />
     <MESSAGE value="mouseAnimation" />
-    <option name="LAST_COMMIT_MESSAGE" value="mouseAnimation" />
+    <MESSAGE value="customer" />
+    <option name="LAST_COMMIT_MESSAGE" value="customer" />
   </component>
 </project>

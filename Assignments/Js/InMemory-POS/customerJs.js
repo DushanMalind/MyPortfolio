@@ -120,13 +120,19 @@ function saveCustomer() {
         loadAllCustomers();
         loadAllCustomerId();
         bindRowClickEvents();
-        clearAllData();
+        clearAllDataCustomer();
     } else {
         alert("Customer already exits.!");
     }
 
 }
 
+function clearAllDataCustomer() {
+    $('#txtCustomerID').val("");
+    $('#txtCustomerName').val("");
+    $('#txtCustomerAddress').val("");
+    $('#txtCustomerContact').val("");
+}
 
 $('#txtCustomerID,#txtCustomerName,#txtCustomerAddress,#txtCustomerContact').keydown(function (e) {
     /* e.preventDefault();*/
@@ -231,19 +237,12 @@ $("#btnDelete").click(function () {
 });
 
 
-function clearAllData() {
-    $('#txtCustomerID').val("");
-    $('#txtCustomerName').val("");
-    $('#txtCustomerAddress').val("");
-    $('#txtCustomerContact').val("");
-}
-
 $("#btnClear").click(function () {
     /* $('#txtCustomerID').val("");
      $('#txtCustomerName').val("");
      $('#txtCustomerAddress').val("");
      $('#txtCustomerContact').val("");*/
-    clearAllData();
+    clearAllDataCustomer();
 });
 
 $("#btnUpdate").click(function () {
