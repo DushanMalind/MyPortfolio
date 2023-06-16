@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/bubbles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/jquery-3.6.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/snowstorm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/customerJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/customerJs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,14 +228,7 @@
       <workItem from="1686889694122" duration="1004000" />
       <workItem from="1686899013520" duration="8047000" />
       <workItem from="1686911215741" duration="1414000" />
-      <workItem from="1686912852982" duration="327000" />
-    </task>
-    <task id="LOCAL-00035" summary="fix test 4">
-      <created>1683125365060</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1683125365060</updated>
+      <workItem from="1686912852982" duration="2541000" />
     </task>
     <task id="LOCAL-00036" summary="bubbles animations">
       <created>1683189480574</created>
@@ -576,14 +566,20 @@
       <option name="project" value="LOCAL" />
       <updated>1686902732486</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="mouseAnimation">
+      <created>1686913364758</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1686913364759</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="img add" />
     <MESSAGE value="img add 3" />
     <MESSAGE value="img add 4" />
     <MESSAGE value="img add 5" />
@@ -608,6 +604,7 @@
     <MESSAGE value="customer ok" />
     <MESSAGE value="customer Done" />
     <MESSAGE value="Item Done regex" />
-    <option name="LAST_COMMIT_MESSAGE" value="Item Done regex" />
+    <MESSAGE value="mouseAnimation" />
+    <option name="LAST_COMMIT_MESSAGE" value="mouseAnimation" />
   </component>
 </project>

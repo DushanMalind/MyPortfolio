@@ -365,7 +365,7 @@ function checkCusValidityItem() {
             setItemTextError(validation.field, validation.error);
         }
     }
-    setCusButtonState(errorCount);
+    setItemButtonState(errorCount);
 }
 
 function checkItem(regex, txtField) {
@@ -396,7 +396,7 @@ function defaultCusText(txtField, error) {
     txtField.parent().children('span').text(error);
 }
 
-function setCusButtonState(value) {
+function setItemButtonState(value) {
     if (value > 0) {
         $("#btnItemSave").attr('disabled', true);
     } else {
