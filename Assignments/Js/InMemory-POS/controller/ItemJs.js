@@ -72,7 +72,7 @@ $("#placeOrders").click(function () {
 });
 
 
-var items = [];
+/*var items = [];*/
 
 $("#btnItemSave").click(function () {
     itemSave();
@@ -104,15 +104,22 @@ function itemSave() {
         let itemUnitprice = $("#txtItemUnitprice").val();
         let itemQty = $("#txtItemQty").val();
 
-        var itemObject = {
+       /* var itemObject = {
             itemId: itemIds,
             descriptions: itemDescription,
             unitprice: itemUnitprice,
             qty: itemQty
 
         }
+*/
 
-        items.push(itemObject);
+        let newItems=Object.assign({},items);
+        newItems.itemId=itemIds;
+        newItems.descriptions=itemDescription;
+        newItems.unitprice=itemUnitprice;
+        newItems.qty=itemQty;
+
+        items.push(newItems);
 
         loadAllItems();
         loadAllItemId();
@@ -321,9 +328,9 @@ function updateItem(Items) {
 }
 
 
-/**
+/*/!**
  ///////////////////////////////////////////////////////
- **/
+ **!/
 const itmIDRegEx = /^(I00-)[0-9]{1,3}$/;
 const itemDescRegEx = /^[A-z ]{5,20}$/;
 const itemUnitRegEx = /^[0-9/A-z. ,]{7,}$/;
@@ -418,7 +425,7 @@ function clearAllItemData() {
     $('#descriptions').val("");
     $('#unitprice').val("");
     $('#qty').val("");
-}
+}*/
 
 
 

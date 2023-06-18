@@ -72,7 +72,7 @@ $("#placeOrders").click(function () {
 });
 
 
-var customers = [];
+/*var customers = [];*/
 
 $("#save").click(function () {
 
@@ -107,20 +107,27 @@ function saveCustomer() {
         let cusAddress = $("#txtCustomerAddress").val();
         let cusContact = $("#txtCustomerContact").val();
 
-        var customerObject = {
+       /* var customerObject = {
             id: cusId,
             name: cusName,
             address: cusAddress,
             contact: cusContact
 
-        }
+        }*/
 
-        customers.push(customerObject);
+        let newCustomer= Object.assign({},customers);
+        newCustomer.id=cusId;
+        newCustomer.name=cusName;
+        newCustomer.address=cusAddress;
+        newCustomer.contact=cusContact;
+
+        customers.push(newCustomer);
 
         loadAllCustomers();
         loadAllCustomerId();
         bindRowClickEvents();
         clearAllDataCustomer();
+
     } else {
         alert("Customer already exits.!");
     }
@@ -325,9 +332,9 @@ function updateCustomer(customerID) {
 }
 
 
-/**
+/*/!**
  ///////////////////////////////////////////////////////
- **/
+ **!/
 const cusIDRegEx = /^(C00-)[0-9]{1,3}$/;
 const cusNameRegEx = /^[A-z ]{5,20}$/;
 const cusAddressRegEx = /^[0-9/A-z. ,]{7,}$/;
@@ -416,7 +423,7 @@ function setCusButtonState(value) {
     }
 }
 
-$("#clear").click(function () {
+$("#btnClear").click(function () {
     clearAllCusData();
 });
 
@@ -430,7 +437,7 @@ function clearAllCusData() {
     $('#name').val("");
     $('#address').val("");
     $('#contact').val("");
-}
+}*/
 
 
 

@@ -1,3 +1,6 @@
+
+/*var orders=[];*/
+
 function loadAllCustomerId(){
     $("#customerOrdID").empty();
     for (let customerArElement of customers){

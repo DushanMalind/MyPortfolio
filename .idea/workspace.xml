@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/db/db.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/models/customerModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/models/itemModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/models/ordersModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/validations/customervalidations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/validations/itemValideations.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/customerJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/customerJs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/ItemJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/ItemJs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/customerJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/customerJs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/javaScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/javaScript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/ordersjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/ordersjs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -66,11 +75,11 @@
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\SPA" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Intracnct\Work\Workingzone\My\MyPortfolio\Assignments\Js\InMemory-POS\controller" />
       <recent name="D:\Intracnct\Work\Workingzone\My\MyPortfolio\assets\js" />
       <recent name="D:\Intracnct\Work\Workingzone\My\MyPortfolio\Assignments\Js\InMemory-POS\assets\js" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\KINGHT\assets\audio" />
       <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js" />
-      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\CSS--Framework\pos" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -229,14 +238,10 @@
       <workItem from="1686889694122" duration="1004000" />
       <workItem from="1686899013520" duration="8047000" />
       <workItem from="1686911215741" duration="1414000" />
-      <workItem from="1686912852982" duration="4978000" />
-    </task>
-    <task id="LOCAL-00037" summary="animations My">
-      <created>1683219359477</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1683219359477</updated>
+      <workItem from="1686912852982" duration="5013000" />
+      <workItem from="1686970741267" duration="2078000" />
+      <workItem from="1686981906723" duration="27000" />
+      <workItem from="1687078502633" duration="2128000" />
     </task>
     <task id="LOCAL-00038" summary="Transitions AS2">
       <created>1683378056259</created>
@@ -574,14 +579,20 @@
       <option name="project" value="LOCAL" />
       <updated>1686917578789</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="find">
+      <created>1686920017887</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1686920017887</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="img add 3" />
     <MESSAGE value="img add 4" />
     <MESSAGE value="img add 5" />
     <MESSAGE value="img add 6" />
@@ -606,6 +617,7 @@
     <MESSAGE value="Item Done regex" />
     <MESSAGE value="mouseAnimation" />
     <MESSAGE value="customer" />
-    <option name="LAST_COMMIT_MESSAGE" value="customer" />
+    <MESSAGE value="find" />
+    <option name="LAST_COMMIT_MESSAGE" value="find" />
   </component>
 </project>
