@@ -77,26 +77,6 @@ $("#placeOrders").click(function () {
 $("#save").click(function () {
 
     saveCustomer();
-    /* let cusId=$("#txtCustomerID").val();
-     if (searchCustomer(cusId.trim()==undefined))
-     let cusName=$("#txtCustomerName").val();
-     let cusAddress=$("#txtCustomerAddress").val();
-     let cusContact=$("#txtCustomerContact").val();
-
-     var customerObject={
-         id:cusId,
-         name:cusName,
-         address:cusAddress,
-         contact:cusContact
-
-     }
-
-     customers.push(customerObject);
-
-     loadAllCustomers();
-     loadAllCustomerId();
-     bindRowClickEvents();
-     clearAllData();*/
 });
 
 
@@ -115,7 +95,7 @@ function saveCustomer() {
 
         }*/
 
-        let newCustomer= Object.assign({},customers);
+        let newCustomer= Object.assign({},customerObject);
         newCustomer.id=cusId;
         newCustomer.name=cusName;
         newCustomer.address=cusAddress;
@@ -123,10 +103,10 @@ function saveCustomer() {
 
         customers.push(newCustomer);
 
+        clearCustomerInputFields();
         loadAllCustomers();
         loadAllCustomerId();
         bindRowClickEvents();
-        clearAllDataCustomer();
 
     } else {
         alert("Customer already exits.!");
@@ -141,8 +121,8 @@ function clearAllDataCustomer() {
     $('#txtCustomerContact').val("");
 }
 
-$('#txtCustomerID,#txtCustomerName,#txtCustomerAddress,#txtCustomerContact').keydown(function (e) {
-    /* e.preventDefault();*/
+/*$('#txtCustomerID,#txtCustomerName,#txtCustomerAddress,#txtCustomerContact').keydown(function (e) {
+    /!* e.preventDefault();*!/
     if (e.key == "Tab") {
         e.preventDefault();
     }
@@ -184,7 +164,7 @@ $('#txtCustomerID,#txtCustomerName,#txtCustomerAddress,#txtCustomerContact').key
     });
 
 
-})
+});*/
 
 function bindRowClickEvents() {
 

@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/db/db.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/models/customerModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/models/itemModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/models/ordersModel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/validations/customervalidations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/validations/itemValideations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/ItemJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/ItemJs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/customerJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/customerJs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/ItemJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/ItemJs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/customerJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/customerJs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/javaScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/javaScript.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/ordersjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/ordersjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/validations/customervalidations.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/validations/customervalidations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/validations/itemValideations.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/validations/itemValideations.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,14 +234,7 @@
       <workItem from="1686912852982" duration="5013000" />
       <workItem from="1686970741267" duration="2078000" />
       <workItem from="1686981906723" duration="27000" />
-      <workItem from="1687078502633" duration="2128000" />
-    </task>
-    <task id="LOCAL-00038" summary="Transitions AS2">
-      <created>1683378056259</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1683378056259</updated>
+      <workItem from="1687078502633" duration="4940000" />
     </task>
     <task id="LOCAL-00039" summary="Transitions AS3">
       <created>1683379103804</created>
@@ -586,14 +572,20 @@
       <option name="project" value="LOCAL" />
       <updated>1686920017887</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="controllers db models valideations complete">
+      <created>1687081217951</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1687081217952</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="img add 4" />
     <MESSAGE value="img add 5" />
     <MESSAGE value="img add 6" />
     <MESSAGE value="img add 7" />
@@ -618,6 +610,7 @@
     <MESSAGE value="mouseAnimation" />
     <MESSAGE value="customer" />
     <MESSAGE value="find" />
-    <option name="LAST_COMMIT_MESSAGE" value="find" />
+    <MESSAGE value="controllers db models valideations complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="controllers db models valideations complete" />
   </component>
 </project>

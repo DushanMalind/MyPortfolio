@@ -113,7 +113,7 @@ function itemSave() {
         }
 */
 
-        let newItems=Object.assign({},items);
+        let newItems=Object.assign({},itemObject);
         newItems.itemId=itemIds;
         newItems.descriptions=itemDescription;
         newItems.unitprice=itemUnitprice;
