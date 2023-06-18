@@ -45,20 +45,20 @@ setBtn();
 
 //disable tab
 $("#txtCustomerID,#txtCustomerName,#txtCustomerAddress,#txtCustomerContact").on("keydown keyup", function (e) {
-    //get the index number of data input fields indexNo
+
     let indexNo = customerValideaction.indexOf(customerValideaction.find((c) => c.field.attr("id") == e.target.id));
 
-    //Disable tab key
+
     if (e.key == "Tab") {
         e.preventDefault();
     }
 
-    //check validations
+
     checkValidations(customerValideaction[indexNo]);
 
     setBtn();
 
-    //If the enter key pressed cheque and focus
+
     if (e.key == "Enter") {
 
         if (e.target.id != customerValideaction[customerValideaction.length - 1].field.attr("id")) {
@@ -151,7 +151,7 @@ function checkCusValidity() {
             setCusTextError(validation.field, validation.error);
         }
     }
-    setCusButtonState(errorCounts);
+
 }
 
 function checkCus(regex, txtField) {
@@ -182,28 +182,4 @@ function defaultCusText(txtField, error) {
     txtField.parent().children('span').text(error);
 }
 
-/*function setCusButtonState(value) {
-    if (value > 0) {
-        $("#save").attr('disabled', true);
-    } else {
-        $("#save").attr('disabled', false);
-    }
-}*/
-/*
 
-$("#save").click(function () {
-    clearAllCusData();
-});
-
-function clearAllCusData() {
-    $('#txtCustomerID').val("");
-    $('#txtCustomerName').val("");
-    $('#txtCustomerAddress').val("");
-    $('#txtCustomerContact').val("");
-
-    $('#id').val("");
-    $('#name').val("");
-    $('#address').val("");
-    $('#contact').val("");
-}
-*/
