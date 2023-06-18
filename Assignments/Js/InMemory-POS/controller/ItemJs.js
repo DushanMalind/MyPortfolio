@@ -125,7 +125,7 @@ function itemSave() {
         loadAllItemId();
 
         bindRowClickEventsItems();
-        clearItemData();
+        clearCustomerInputFieldsItem();
     } else {
         alert("Item already exits.!");
     }
@@ -327,7 +327,16 @@ function updateItem(Items) {
 
 }
 
+function addTable() {
+    $("#tblItem> tr").detach();
 
+    for (var itm of itemAr){
+        var row="<tr><td>"+itm.itemId+"</td><td>"+itm.descriptions+"</td><td>"+itm.unitprice+"</td><td>"+itm.qty+"</td></tr>";
+        $('#tblItem').append(row);
+    }
+    trSelector();
+
+}
 /*/!**
  ///////////////////////////////////////////////////////
  **!/

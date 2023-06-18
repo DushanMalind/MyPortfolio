@@ -312,6 +312,27 @@ function updateCustomer(customerID) {
 }
 
 
+function trCusSelector() {
+
+    $("#tblCustomer>tr").click(function (){
+        let id=$(this).children(':eq(0)').text();
+        let name=$(this).children(':eq(1)').text();
+        let address=$(this).children(':eq(2)').text();
+        let contact=$(this).children(':eq(3)').text();
+
+        console.log(id+"  "+name+"  "+address+" "+contact);
+
+        $('#txtCustomerID').val(id);
+        $('#txtCustomerName').val(name);
+        $('#txtCustomerAddress').val(address);
+        $('#txtCustomerContact').val(contact);
+
+
+
+    });
+
+}
+
 /*/!**
  ///////////////////////////////////////////////////////
  **!/

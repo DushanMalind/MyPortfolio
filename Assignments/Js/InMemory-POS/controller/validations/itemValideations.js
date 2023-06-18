@@ -6,8 +6,8 @@ let itemValideaction = [];
 
 const itmIDRegEx = /^(I00-)[0-9]{1,3}$/;
 const itemDescRegEx = /^[A-z ]{5,20}$/;
-const itemUnitRegEx = /^[0-9/A-z. ,]{7,}$/;
-const itemQTYtRegEx = /^[0-9]{1,}[0-9]{1,2}$/;
+const itemUnitRegEx = /^[0-9]{1,}[.]?[0-9]{1,2}$/;
+const itemQTYtRegEx = /^[0-9]{1,7}$/;
 
 $("#txtCustomerID").focus();
 
@@ -29,7 +29,7 @@ itemValideaction.push({reg: itemQTYtRegEx, field: $('#txtItemQty'), error: 'Item
 
 
 
-function clearCustomerInputFields() {
+function clearCustomerInputFieldsItem() {
     $("#txtItemId,#txtItemDescription,#txtItemUnitprice,#txtItemQty").val("");
     $("#txtItemId,#txtItemDescription,#txtItemUnitprice,#txtItemQty").css("border", "1px solid #ced4da");
     $("#txtItemId").focus();

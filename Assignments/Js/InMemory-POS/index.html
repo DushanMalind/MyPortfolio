@@ -284,7 +284,7 @@
                             <div class="col">
                                 <div class="input-group">
                                     <span class="input-group-text">Order ID</span>
-                                    <input class="form-control" type="text" placeholder="OD-001" aria-label="Disabled input example" >
+                                    <input class="form-control" type="text" id="orderId" placeholder="OD-001" aria-label="Disabled input example" >
                                 </div>
                             </div>
                             <div class="col">
@@ -329,7 +329,7 @@
                             <div class="col">
                                 <div class="input-group">
                                     <span class="input-group-text">Item ID</span>
-                                    <select class="form-select" id="ItemIdOrd" aria-label="Default select example">
+                                    <select class="form-select" id="itemIdOrd" aria-label="Default select example">
                                       <!--  <option selected>Select ID</option>-->
                                         <!--<option value="1">I001</option>
                                         <option value="2">I002</option>
@@ -341,28 +341,28 @@
                             <div class="col">
                                 <div class="input-group">
                                     <span class="input-group-text">Description</span>
-                                    <input class="form-control" id="desOrd" type="text" placeholder="Ram" aria-label="Disabled input example" disabled>
+                                    <input class="form-control" id="item" type="text" placeholder="Ram" aria-label="Disabled input example" disabled>
                                 </div>
                             </div>
 
                             <div class="col">
                                 <div class="input-group">
                                     <span class="input-group-text">Qty On Hand</span>
-                                    <input class="form-control" id="qtyOrd" type="text" placeholder="10" aria-label="Disabled input example" disabled>
+                                    <input class="form-control" id="qtyOnHandOrd" type="text" placeholder="10" aria-label="Disabled input example" disabled>
                                 </div>
                             </div>
 
                             <div class="col">
                                 <div class="input-group">
                                     <span class="input-group-text">Unit Price</span>
-                                    <input class="form-control" id="unitOrd" type="text" placeholder="2000.00" aria-label="Disabled input example" disabled>
+                                    <input class="form-control" id="priceOrd" type="text" placeholder="2000.00" aria-label="Disabled input example" disabled>
                                 </div>
                             </div>
 
                             <div class="col">
                                 <div class="input-group">
                                     <span class="input-group-text">Quantity</span>
-                                    <input class="form-control" id="onHandOrd" type="text" placeholder="" aria-label="Disabled input example">
+                                    <input class="form-control" id="orderQty" type="text" placeholder="" aria-label="Disabled input example">
                                 </div>
                             </div>
 
@@ -375,7 +375,7 @@
                 <div class="row mt-3">
                     <div class="col-10"></div>
                     <div class="col-2">
-                        <button type="button" class="btn btn-warning">Add to Cart</button>
+                        <button type="button" id="btnAddToCart" class="btn btn-warning">Add to Cart</button>
                         <button type="button" class="btn btn-info">Clear</button>
                     </div>
                 </div>
@@ -388,7 +388,7 @@
                     <section class="container col me-auto ms-20 mb-10">
 
                         <!--<h5 class="text-danger text-center m-lg-3 pb-3" >Item Details</h5>-->
-                        <table class="table table-light table-striped">
+                      <!--  <table class="table table-light table-striped">
                             <thead>
                             <tr>
                                 <th style="background-color: #0077b6" scope="col">Id</th>
@@ -396,7 +396,7 @@
                                 <th style="background-color: #0077b6" scope="col">Unitprice</th>
                                 <th style="background-color: #0077b6" scope="col">Qty</th>
                                 <th style="background-color: #0077b6" scope="col">Total</th>
-                                <!-- <th style="background-color: #da9aef" scope="col">Action</th>-->
+                                &lt;!&ndash; <th style="background-color: #da9aef" scope="col">Action</th>&ndash;&gt;
                             </tr>
                             </thead>
                             <tbody>
@@ -406,18 +406,19 @@
                                 <td>8000</td>
                                 <td>10</td>
                                 <td>80000</td>
-                                <!--<td>
+                                &lt;!&ndash;<td>
                                     <button type="button" class="btn btn-primary">Edit</button>
                                     <button type="button" class="btn btn-danger">Delete</button>
-                                </td>-->
+                                </td>&ndash;&gt;
                             </tr>
                             </tbody>
-                        </table>
+                        </table>-->
+
 
                         <section class="container ">
                             <div class="row border border-primary rounded p-2">
 
-                                <div class="col">
+                       <!--         <div class="col">
                                     <div class="input-group">
                                         <span class="input-group-text">Total:</span>
                                         <input class="form-control" type="text" placeholder="O0.00" aria-label="Disabled input example" disabled>
@@ -435,6 +436,58 @@
                                         <span class="input-group-text">Next Total</span>
                                         <input class="form-control" type="text" placeholder="00.00" aria-label="Disabled input example" disabled>
                                     </div>
+                                </div>-->
+
+                                <div class="px-3 rounded-3 mt-4 p-3 border shadow-sm">
+                                    <div class="row px-lg-0 px-xxl-4 px-sm-5 mt-0 mt-lg-2 mt-xl-1 mt-xxl-3 ">
+                                        <div class="col-5">
+                                            <div class="mb-2 mb-lg-3 mb-xxl-3">
+                                                <label for="total" class="form-label fs-5">Total(RS)</label>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="mb-2">
+                                                <input type="number" readonly class="form-control p-1 fs-6 fw-bolder " id="total" value="00000.00">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row px-lg-0 px-sm-5 px-xxl-4">
+                                        <div class="col-5">
+                                            <div class="mb-2">
+                                                <label for="subTotal" class="form-label fs-5">Sub Total(RS)</label>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="mb-2">
+                                                <input type="number" readonly class="form-control p-1 fs-6 fw-bolder " id="subTotal" value="00000.00">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row gx-3 mt-4">
+                                        <div class="col">
+                                            <div class="mb-3">
+                                                <label for="cash" class="form-label">Cash</label>
+                                                <input type="text" class="form-control" id="cash" placeholder="0000.00">
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="mb-3 mb-xxl-4" >
+                                                <label for="discount" class="form-label">Discount</label>
+                                                <input type="number" class="form-control" id="discount" placeholder="10">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="mb-3 mb-xl-5 mb-xxl-4">
+                                            <label for="balance" class="form-label">Balance</label>
+                                            <input type="text" class="form-control" id="balance" placeholder="0000.00">
+                                        </div>
+                                        <div class="mt-1 d-grid col-6 mt-xl-2 mx-auto">
+                                            <button id="purchaseOrder" type="button" class="btn btn-primary">Purchase</button>
+                                        </div>
+                                    </div>
                                 </div>
 
                             </div>
@@ -442,14 +495,31 @@
 
                         </section>
 
-                        <div class="row mt-3">
+                        <!--<div class="row mt-3">
                             <div class="col-10"></div>
                             <div class="col-2">
                                 <button type="button" class="btn btn-warning">Purchase</button>
                                 <button type="button" class="btn btn-info">Clear</button>
                             </div>
-                        </div>
+                        </div>-->
 
+                    </section>
+                    <section>
+                        <div class="mb-5 mt-4 table-wrapper-scroll-y my-custom-scrollbar ">
+                            <table class="table table-hover table-borderless table-striped">
+                                <thead class=" text-light" style="background-color: #264259;">
+                                <tr>
+                                    <th scope="col">Item Code</th>
+                                    <th scope="col">Item Name</th>
+                                    <th scope="col">Price</th>
+                                    <th scope="col">Quantity</th>
+                                    <th scope="col">Total(Rs)</th>
+                                </tr>
+                                </thead>
+                                <tbody id="tblCart">
+                                </tbody>
+                            </table>
+                        </div>
                     </section>
 
                 </div>
@@ -478,6 +548,7 @@
 <script src="controller/customerJs.js"></script>
 <script src="controller/ItemJs.js"></script>
 <script src="controller/ordersjs.js"></script>
+<script src="models/cartModel.js"></script>
 <script src="controller/validations/customervalidations.js"></script>
 <script src="controller/validations/itemValideations.js"></script>
 </body>
