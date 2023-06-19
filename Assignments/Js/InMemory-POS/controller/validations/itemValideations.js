@@ -63,7 +63,7 @@ $("#txtItemId,#txtItemDescription,#txtItemUnitprice,#txtItemQty").on("keydown ke
             }
         } else {
             if (checkValidations(itemValideaction[indexNo])) {
-                saveCustomer();
+                itemSave();
             }
         }
     }
