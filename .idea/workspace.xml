@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/css/darkColor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/dayNight.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/validations/itemValideations.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/validations/itemValideations.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,9 +21,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
-        <option value="CSS File" />
         <option value="SCSS File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -47,7 +51,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../HTML/css1/CSS-Basics" />
-    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -233,14 +237,10 @@
       <workItem from="1686970741267" duration="2078000" />
       <workItem from="1686981906723" duration="27000" />
       <workItem from="1687078502633" duration="22441000" />
-      <workItem from="1687175415942" duration="1096000" />
-    </task>
-    <task id="LOCAL-00043" summary="Experience Other Add">
-      <created>1683551861937</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1683551861937</updated>
+      <workItem from="1687175415942" duration="1517000" />
+      <workItem from="1687269231951" duration="3030000" />
+      <workItem from="1687272489872" duration="986000" />
+      <workItem from="1687275223323" duration="973000" />
     </task>
     <task id="LOCAL-00044" summary="Experience Assimant">
       <created>1683552466924</created>
@@ -578,14 +578,20 @@
       <option name="project" value="LOCAL" />
       <updated>1687098787845</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="item save bug fix">
+      <created>1687176700671</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1687176700671</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Table Data Add pos" />
     <MESSAGE value="Table Update Add delete" />
     <MESSAGE value="Js QUE" />
     <MESSAGE value="Js QUE start and stop button" />
@@ -610,6 +616,7 @@
     <MESSAGE value="finsh" />
     <MESSAGE value="finish" />
     <MESSAGE value="Portfolio Loader" />
-    <option name="LAST_COMMIT_MESSAGE" value="Portfolio Loader" />
+    <MESSAGE value="item save bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="item save bug fix" />
   </component>
 </project>
