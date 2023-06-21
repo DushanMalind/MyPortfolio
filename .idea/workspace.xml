@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/darkColor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/js/dayNight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,14 +235,7 @@
       <workItem from="1687175415942" duration="1517000" />
       <workItem from="1687269231951" duration="3030000" />
       <workItem from="1687272489872" duration="986000" />
-      <workItem from="1687275223323" duration="973000" />
-    </task>
-    <task id="LOCAL-00044" summary="Experience Assimant">
-      <created>1683552466924</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1683552466924</updated>
+      <workItem from="1687275223323" duration="2439000" />
     </task>
     <task id="LOCAL-00045" summary="animatesd">
       <created>1683553716612</created>
@@ -585,14 +573,20 @@
       <option name="project" value="LOCAL" />
       <updated>1687176700671</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="dark color add">
+      <created>1687276432699</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1687276432701</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Table Update Add delete" />
     <MESSAGE value="Js QUE" />
     <MESSAGE value="Js QUE start and stop button" />
     <MESSAGE value="KNIGHT Rider" />
@@ -617,6 +611,7 @@
     <MESSAGE value="finish" />
     <MESSAGE value="Portfolio Loader" />
     <MESSAGE value="item save bug fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="item save bug fix" />
+    <MESSAGE value="dark color add" />
+    <option name="LAST_COMMIT_MESSAGE" value="dark color add" />
   </component>
 </project>

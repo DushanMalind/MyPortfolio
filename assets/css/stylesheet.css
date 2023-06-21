@@ -788,6 +788,10 @@ body .photo header .back{
     margin-top: 40px
 }
 
+.about .about-content .skill h3{
+    color: var(--text-black-900);
+}
+
 /*.about .about-content .skill h3
 {
     font-weight: 600;
