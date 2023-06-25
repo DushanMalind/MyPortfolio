@@ -204,10 +204,10 @@ function bindRowClickEventsItems() {
         $('#txtItemUnitprice').val(unitprice);
         $('#txtItemQty').val(qty);
 
-        setItemButtonUpdate(2);
-        $("#btnItemUpdate").attr('disabled', false);
+     /*   setItemButtonUpdate(2);
+        $("#btnItemUpdate").attr('disabled', false);*/
     });
-    $("#btnItemUpdate").attr('disabled', true);
+   /* $("#btnItemUpdate").attr('disabled', true);*/
 }
 
 function setItemButtonUpdate(value) {

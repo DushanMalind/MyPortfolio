@@ -136,10 +136,10 @@ function bindRowClickEvents() {
         $('#txtCustomerAddress').val(address);
         $('#txtCustomerContact').val(contact);
 
-        setCusButtonUpdate(2);
-        $("#btnUpdate").attr('disabled', false);
+       /* setCusButtonUpdate(2);
+        $("#btnUpdate").attr('disabled', false);*/
     });
-    $("#btnUpdate").attr('disabled', disabled);
+   /* $("#btnUpdate").attr('disabled', disabled);*/
 
 
 }
@@ -148,7 +148,7 @@ function setCusButtonUpdate(values) {
     if (values > 1) {
         $("#btnUpdate").attr('disabled', true);
     } else {
-        $("#btnUpdate").attr('disabled', disabled);
+        $("#btnUpdate").attr('disabled', );
     }
 }
 

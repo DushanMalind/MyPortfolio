@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
+    <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="update and finish">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../HTML/css1/CSS-Basics" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../HTML/Css test/CSS-Basics" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -236,13 +236,17 @@
       <workItem from="1687269231951" duration="3030000" />
       <workItem from="1687272489872" duration="986000" />
       <workItem from="1687275223323" duration="2439000" />
-    </task>
-    <task id="LOCAL-00045" summary="animatesd">
-      <created>1683553716612</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1683553716612</updated>
+      <workItem from="1687360326418" duration="250000" />
+      <workItem from="1687375519286" duration="931000" />
+      <workItem from="1687441887047" duration="1213000" />
+      <workItem from="1687452369820" duration="864000" />
+      <workItem from="1687537089075" duration="1923000" />
+      <workItem from="1687542422024" duration="611000" />
+      <workItem from="1687573056455" duration="1180000" />
+      <workItem from="1687722540614" duration="1441000" />
+      <workItem from="1687724003197" duration="33000" />
+      <workItem from="1687724226189" duration="250000" />
+      <workItem from="1687724532983" duration="134000" />
     </task>
     <task id="LOCAL-00046" summary="test">
       <created>1683636856372</created>
@@ -580,14 +584,20 @@
       <option name="project" value="LOCAL" />
       <updated>1687276432701</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="update and finish">
+      <created>1687360542280</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1687360542280</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Js QUE" />
     <MESSAGE value="Js QUE start and stop button" />
     <MESSAGE value="KNIGHT Rider" />
     <MESSAGE value="Cal" />
@@ -612,6 +622,7 @@
     <MESSAGE value="Portfolio Loader" />
     <MESSAGE value="item save bug fix" />
     <MESSAGE value="dark color add" />
-    <option name="LAST_COMMIT_MESSAGE" value="dark color add" />
+    <MESSAGE value="update and finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="update and finish" />
   </component>
 </project>
