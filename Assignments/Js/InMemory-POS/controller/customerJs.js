@@ -182,10 +182,6 @@ $("#btnDelete").click(function () {
 
 
 $("#btnClear").click(function () {
-    /* $('#txtCustomerID').val("");
-     $('#txtCustomerName').val("");
-     $('#txtCustomerAddress').val("");
-     $('#txtCustomerContact').val("");*/
     clearAllDataCustomer();
 });
 

@@ -76,25 +76,7 @@ $("#placeOrders").click(function () {
 
 $("#btnItemSave").click(function () {
     itemSave();
-    /* let itemIds=$("#txtItemId").val();
-     let itemDescription=$("#txtItemDescription").val();
-     let itemUnitprice=$("#txtItemUnitprice").val();
-     let itemQty=$("#txtItemQty").val();
 
-     var itemObject={
-         itemId:itemIds,
-         descriptions:itemDescription,
-         unitprice:itemUnitprice,
-         qty:itemQty
-
-     }
-
-     items.push(itemObject);
-
-     loadAllItems();
-     loadAllItemId();
-
-     bindRowClickEventsItems();*/
 });
 
 function itemSave() {
@@ -104,14 +86,7 @@ function itemSave() {
         let itemUnitprice = $("#txtItemUnitprice").val();
         let itemQty = $("#txtItemQty").val();
 
-       /* var itemObject = {
-            itemId: itemIds,
-            descriptions: itemDescription,
-            unitprice: itemUnitprice,
-            qty: itemQty
 
-        }
-*/
 
         let newItems=Object.assign({},itemObject);
         newItems.itemId=itemIds;
@@ -247,10 +222,7 @@ $("#btnItemDelete").click(function () {
 
 $("#btnClearItem").click(function () {
     clearItemData();
-    /*$('#txtItemId').val("");
-    $('#txtItemDescription').val("");
-    $('#txtItemUnitprice').val("");
-    $('#txtItemQty').val("");*/
+
 });
 
 

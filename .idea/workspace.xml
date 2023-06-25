@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="update and finish done">
+    <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="update and finish done1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/ItemJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/ItemJs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/ordersjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/ordersjs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/validations/itemValideations.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/validations/itemValideations.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,14 +247,7 @@
       <workItem from="1687724003197" duration="33000" />
       <workItem from="1687724226189" duration="250000" />
       <workItem from="1687724532983" duration="134000" />
-      <workItem from="1687725077655" duration="692000" />
-    </task>
-    <task id="LOCAL-00047" summary="test 1">
-      <created>1683644222801</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1683644222801</updated>
+      <workItem from="1687725077655" duration="1755000" />
     </task>
     <task id="LOCAL-00048" summary="test 2 Assimants">
       <created>1684219973279</created>
@@ -595,14 +585,20 @@
       <option name="project" value="LOCAL" />
       <updated>1687725343188</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="update and finish done1">
+      <created>1687726078738</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1687726078738</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="KNIGHT Rider" />
     <MESSAGE value="Cal" />
     <MESSAGE value="InMemory-POS System" />
     <MESSAGE value="InMemory-POS System task" />
@@ -627,6 +623,7 @@
     <MESSAGE value="dark color add" />
     <MESSAGE value="update and finish" />
     <MESSAGE value="update and finish done" />
-    <option name="LAST_COMMIT_MESSAGE" value="update and finish done" />
+    <MESSAGE value="update and finish done1" />
+    <option name="LAST_COMMIT_MESSAGE" value="update and finish done1" />
   </component>
 </project>
