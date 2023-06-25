@@ -124,7 +124,7 @@ function searchRowExists(itemCode) {
 }
 
 function minQty(itemCode,orderQty) {
-    for (let itemArElement of itemAr) {
+    for (let itemArElement of items) {
         if(itemArElement.itemId===itemCode){
             itemArElement.qtyOnHand=parseInt(itemArElement.qtyOnHand)-parseInt(orderQty);
         }
