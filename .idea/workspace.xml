@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.me" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -252,14 +249,7 @@
       <workItem from="1687728793399" duration="83000" />
       <workItem from="1687744757181" duration="1287000" />
       <workItem from="1687835010933" duration="5316000" />
-      <workItem from="1687863619555" duration="3294000" />
-    </task>
-    <task id="LOCAL-00051" summary="Framework">
-      <created>1684611050302</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1684611050302</updated>
+      <workItem from="1687863619555" duration="3604000" />
     </task>
     <task id="LOCAL-00052" summary="readme file">
       <created>1684655172406</created>
@@ -597,14 +587,20 @@
       <option name="project" value="LOCAL" />
       <updated>1687840064230</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="README file Add">
+      <created>1687867503774</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1687867503776</updated>
+    </task>
+    <option name="localTasksCounter" value="101" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="InMemory-POS System task" />
     <MESSAGE value="Assignments Js Add" />
     <MESSAGE value="new commit test" />
     <MESSAGE value="customer update switch" />
@@ -629,6 +625,7 @@
     <MESSAGE value="update and finish" />
     <MESSAGE value="update and finish Id Auto genarate customer" />
     <MESSAGE value="path ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="path ok" />
+    <MESSAGE value="README file Add" />
+    <option name="LAST_COMMIT_MESSAGE" value="README file Add" />
   </component>
 </project>
