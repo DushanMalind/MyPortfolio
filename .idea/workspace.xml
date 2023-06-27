@@ -6,7 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.me" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 172555.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 172555g.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 172737.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 172828.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 172903.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 172923.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 172946.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 173008.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 173038.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 173106.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 173132.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 173158.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 173218.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 173244.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,14 +266,7 @@
       <workItem from="1687728793399" duration="83000" />
       <workItem from="1687744757181" duration="1287000" />
       <workItem from="1687835010933" duration="5316000" />
-      <workItem from="1687863619555" duration="4661000" />
-    </task>
-    <task id="LOCAL-00054" summary="Js">
-      <created>1684923154245</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1684923154245</updated>
+      <workItem from="1687863619555" duration="5475000" />
     </task>
     <task id="LOCAL-00055" summary="color">
       <created>1684923247348</created>
@@ -597,7 +604,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687868190894</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="README file Add">
+      <created>1687868771218</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1687868771218</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,9 +640,9 @@
     <MESSAGE value="update and finish" />
     <MESSAGE value="update and finish Id Auto genarate customer" />
     <MESSAGE value="path ok" />
-    <MESSAGE value="README file Add" />
     <MESSAGE value="README file Add 1" />
     <MESSAGE value="README file Add image add" />
-    <option name="LAST_COMMIT_MESSAGE" value="README file Add image add" />
+    <MESSAGE value="README file Add" />
+    <option name="LAST_COMMIT_MESSAGE" value="README file Add" />
   </component>
 </project>

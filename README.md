@@ -1,10 +1,11 @@
 <h3>Technology & Frameworks<h3>
-HTML
-CSS
-JS
-Bootstrap
-Jquery
-References
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JS</li>
+  <li>Bootstrap</li>
+  <li>Jquery</li>
+</ul>
 
 Site Map : https://drive.google.com/file/d/1npVBac_66M0O2sSm7Cl_KxWo2dw5rC2B/view?usp=sharing
 
@@ -14,6 +15,7 @@ Mockup : https://www.figma.com/file/cwrCp2oKl4bj67PRJPWlDa/Mockup?type=design&no
 
 Deployment
 InfinityFree : http://borrowedskate58.epizy.com
+
 GitHub Pages : https://github.com/DushanMalind/MyPortfolio.git
 
 Web POS Using CSS FrameWorks
@@ -28,4 +30,8 @@ Developed By Dushan Malinda
 
 Desktop View
 
-
+![](assets/myimage/1.png)
+![](assets/myimage/3.png)
+![](assets/myimage/2.png)
+![](assets/myimage/4.png)
+![](assets/myimage/5.png)
