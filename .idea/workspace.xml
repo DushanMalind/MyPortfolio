@@ -7,20 +7,6 @@
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 172555.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 172555g.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 172737.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 172828.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 172903.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 172923.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 172946.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 173008.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 173038.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 173106.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 173132.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 173158.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 173218.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/mypage/Screenshot 2023-06-27 173244.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/myimage" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -73,11 +59,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intracnct\Work\Workingzone\My\MyPortfolio\assets\myimage" />
       <recent name="D:\Intracnct\Work\Workingzone\My\MyPortfolio\assets" />
       <recent name="D:\Intracnct\Work\Workingzone\My\MyPortfolio\assets\img" />
       <recent name="D:\Intracnct\Work\Workingzone\My\MyPortfolio\assets\js" />
       <recent name="D:\Intracnct\Work\Workingzone\My\MyPortfolio\assets\css" />
-      <recent name="D:\Intracnct\Work\Workingzone\My\MyPortfolio\Assignments\Js\InMemory-POS\assets\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Intracnct\Work\Workingzone\My\MyPortfolio\Assignments\Js\InMemory-POS\controller" />
@@ -267,13 +253,7 @@
       <workItem from="1687744757181" duration="1287000" />
       <workItem from="1687835010933" duration="5316000" />
       <workItem from="1687863619555" duration="5475000" />
-    </task>
-    <task id="LOCAL-00055" summary="color">
-      <created>1684923247348</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1684923247348</updated>
+      <workItem from="1687869597988" duration="1270000" />
     </task>
     <task id="LOCAL-00056" summary="img add 1">
       <created>1685106355284</created>
@@ -611,14 +591,20 @@
       <option name="project" value="LOCAL" />
       <updated>1687868771218</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="README file Add image">
+      <created>1687869882598</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1687869882599</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="customer update switch" />
     <MESSAGE value="items js" />
     <MESSAGE value="orders js" />
     <MESSAGE value="customer ok" />
@@ -643,6 +629,7 @@
     <MESSAGE value="README file Add 1" />
     <MESSAGE value="README file Add image add" />
     <MESSAGE value="README file Add" />
-    <option name="LAST_COMMIT_MESSAGE" value="README file Add" />
+    <MESSAGE value="README file Add image" />
+    <option name="LAST_COMMIT_MESSAGE" value="README file Add image" />
   </component>
 </project>
