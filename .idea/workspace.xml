@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.me" beforeDir="false" afterPath="$PROJECT_DIR$/README.me" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.me" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Hiberante/ORM Coswork/New folder/my hostel/ORM-CoseWork-HostelMangement/Hostel_Management" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -58,11 +59,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Intracnct\Work\Workingzone\My\MyPortfolio\assets" />
       <recent name="D:\Intracnct\Work\Workingzone\My\MyPortfolio\assets\img" />
       <recent name="D:\Intracnct\Work\Workingzone\My\MyPortfolio\assets\js" />
       <recent name="D:\Intracnct\Work\Workingzone\My\MyPortfolio\assets\css" />
       <recent name="D:\Intracnct\Work\Workingzone\My\MyPortfolio\Assignments\Js\InMemory-POS\assets\js" />
-      <recent name="D:\Intracnct\Work\Workingzone\MyPortfolio\Assignments\Js\SPA\assets\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Intracnct\Work\Workingzone\My\MyPortfolio\Assignments\Js\InMemory-POS\controller" />
@@ -251,14 +252,7 @@
       <workItem from="1687728793399" duration="83000" />
       <workItem from="1687744757181" duration="1287000" />
       <workItem from="1687835010933" duration="5316000" />
-      <workItem from="1687863619555" duration="4033000" />
-    </task>
-    <task id="LOCAL-00053" summary="Js SPA">
-      <created>1684922644796</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1684922644797</updated>
+      <workItem from="1687863619555" duration="4661000" />
     </task>
     <task id="LOCAL-00054" summary="Js">
       <created>1684923154245</created>
@@ -596,14 +590,20 @@
       <option name="project" value="LOCAL" />
       <updated>1687867893916</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="README file Add image add">
+      <created>1687868190894</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1687868190894</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new commit test" />
     <MESSAGE value="customer update switch" />
     <MESSAGE value="items js" />
     <MESSAGE value="orders js" />
@@ -628,6 +628,7 @@
     <MESSAGE value="path ok" />
     <MESSAGE value="README file Add" />
     <MESSAGE value="README file Add 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="README file Add 1" />
+    <MESSAGE value="README file Add image add" />
+    <option name="LAST_COMMIT_MESSAGE" value="README file Add image add" />
   </component>
 </project>
