@@ -60,7 +60,7 @@ $("#txtCustomerID,#txtCustomerName,#txtCustomerAddress,#txtCustomerContact").on(
 
 
     if (e.key == "Enter") {
-
+        $("#txtCustomerID").val(generateNewId());
         if (e.target.id != customerValideaction[customerValideaction.length - 1].field.attr("id")) {
             //check validation is ok
             if (checkValidations(customerValideaction[indexNo])) {

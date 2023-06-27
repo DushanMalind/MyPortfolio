@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="update and finish done1">
+    <list default="true" id="7a5377ac-af4a-47e3-8d4f-e1ae893f26c4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/customerJs.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/customerJs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/validations/customervalidations.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assignments/Js/InMemory-POS/controller/validations/customervalidations.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../HTML/Css test/CSS-Basics" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Hiberante/ORM Coswork/New folder/my hostel/ORM-CoseWork-HostelMangement/Hostel_Management" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -247,14 +249,10 @@
       <workItem from="1687724003197" duration="33000" />
       <workItem from="1687724226189" duration="250000" />
       <workItem from="1687724532983" duration="134000" />
-      <workItem from="1687725077655" duration="1755000" />
-    </task>
-    <task id="LOCAL-00048" summary="test 2 Assimants">
-      <created>1684219973279</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1684219973279</updated>
+      <workItem from="1687725077655" duration="2261000" />
+      <workItem from="1687728793399" duration="83000" />
+      <workItem from="1687744757181" duration="1287000" />
+      <workItem from="1687835010933" duration="3133000" />
     </task>
     <task id="LOCAL-00049" summary="Framework index item">
       <created>1684513193221</created>
@@ -592,7 +590,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687726078738</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="update and finish">
+      <created>1687727114495</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1687727114495</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -621,9 +626,9 @@
     <MESSAGE value="Portfolio Loader" />
     <MESSAGE value="item save bug fix" />
     <MESSAGE value="dark color add" />
-    <MESSAGE value="update and finish" />
     <MESSAGE value="update and finish done" />
     <MESSAGE value="update and finish done1" />
-    <option name="LAST_COMMIT_MESSAGE" value="update and finish done1" />
+    <MESSAGE value="update and finish" />
+    <option name="LAST_COMMIT_MESSAGE" value="update and finish" />
   </component>
 </project>

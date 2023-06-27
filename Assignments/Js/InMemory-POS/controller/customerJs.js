@@ -74,14 +74,16 @@ $("#placeOrders").click(function () {
 
 /*var customers = [];*/
 
+/*$("#txtCustomerID").val(generateNewId());*/
 $("#save").click(function () {
 
     saveCustomer();
 });
 
 
+
 function saveCustomer() {
-    let cusId = $("#txtCustomerID").val();
+    let cusId = generateNewId();/*$("#txtCustomerID").val();*/
     if (searchCustomer(cusId.trim()) == undefined) {
         let cusName = $("#txtCustomerName").val();
         let cusAddress = $("#txtCustomerAddress").val();
@@ -113,6 +115,29 @@ function saveCustomer() {
     }
 
 }
+
+function generateNewId() {
+    if (customers.length !== 0) {
+        let lastID = customers[customers.length - 1].id;
+        let oldValue = lastID.slice(-1);
+        let newValue = +oldValue +1;
+        return "C00-00" + newValue;
+    } else {
+        return "C00-001";
+    }
+}
+
+/*function genarateNewId(){
+
+    if (customers.length){
+        let ids=customers
+        let newCustomerId=parseInt(ids.replace("C00-",""))+1;
+        return String.format("C00-%03d",newCustomerId);
+    }else {
+        return "C00-001";
+    }
+}*/
+
 
 function clearAllDataCustomer() {
     $('#txtCustomerID').val("");
