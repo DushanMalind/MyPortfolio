@@ -24,8 +24,8 @@ Mockup : https://www.figma.com/file/cwrCp2oKl4bj67PRJPWlDa/Mockup?type=design&no
 ----------------------------------------------------------------------------------------------<br>
 
 <h3>Deployment</h3>
-InfinityFree : http://ferdfolio.epizy.com <br>
-GitHub Pages : https://derickferdinands.github.io/My-Portfolio/ <br>
+InfinityFree :  http://borrowedskate58.epizy.com/?i=2 <br>
+GitHub Pages : https://github.com/DushanMalind/MyPortfolio/deployments/activity_log?environment=github-pages <br>
 
 ----------------------------------------------------------------------------------------------<br>
 
